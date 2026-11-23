@@ -92,7 +92,7 @@
     var tr = el("tr", "detail"), td = el("td"), dl = el("dl");
     td.colSpan = 8;
     [["Title", w.title], ["Venue", w.venue + " (" + w.type + ")"], ["Degradation operator", w.degradation], ["Factors", w.factors],
-     ["Reference", w.reference], ["Model input", w.input], ["Supervision", w.supervision.join(", ")], ["Review ID", w.id], ["DOI", w.doi || "Not available"]]
+     ["Reference", w.reference], ["Model input", w.input], ["Supervision", w.supervision.join(", ")], ["Review ID", w.id], ["DOI", w.doi || "Not available"]].concat(w.code_note ? [["Code", w.code_note]] : [])
       .forEach(function (p) { var d = el("div"); d.appendChild(el("dt", "", p[0])); d.appendChild(el("dd", "", p[1])); dl.appendChild(d); });
     td.appendChild(dl); tr.appendChild(td);
     return tr;
@@ -119,6 +119,7 @@
       var l = el("td", "links");
       if (safeUrl(w.paper_url)) l.appendChild(link(w.paper_url, "Paper", "Paper: " + w.study));
       if (safeUrl(w.code_url)) l.appendChild(link(w.code_url, "Code", "Code: " + w.study));
+      if (w.code && !safeUrl(w.code_url)) { var noLink = el("span", "code-note", "Code stated"); noLink.title = w.code_note; l.appendChild(noLink); }
       if (!l.childNodes.length) l.appendChild(el("span", "dash", "-"));
       tr.appendChild(l);
       frag.appendChild(tr);
@@ -172,9 +173,9 @@
     return '"' + s.replace(/"/g, '""') + '"';
   }
   $("export").addEventListener("click", function () {
-    var head = ["Review ID", "Study", "Title", "Year", "Venue", "Publication type", "Anatomy", "Reconstruction settings", "Degraded input", "Degradation operator", "Factors", "Reference", "Supervision", "Input", "Datasets", "Model families", "Code released", "Code URL", "DOI", "Paper URL"];
+    var head = ["Review ID", "Study", "Title", "Year", "Venue", "Publication type", "Anatomy", "Reconstruction settings", "Degraded input", "Degradation operator", "Factors", "Reference", "Supervision", "Input", "Datasets", "Model families", "Code released", "Code URL", "Code note", "DOI", "Paper URL"];
     var rows = filtered().map(function (w) {
-      return [w.id, w.study, w.title, w.year, w.venue, w.type, w.anatomy.join("; "), w.settings.join("; "), w.source, w.degradation, w.factors, w.reference, w.supervision.join("; "), w.input, w.datasets.join("; "), w.families.join("; "), w.code ? "Yes" : "No", w.code_url, w.doi, w.paper_url].map(csvCell).join(",");
+      return [w.id, w.study, w.title, w.year, w.venue, w.type, w.anatomy.join("; "), w.settings.join("; "), w.source, w.degradation, w.factors, w.reference, w.supervision.join("; "), w.input, w.datasets.join("; "), w.families.join("; "), w.code ? "Yes" : "No", w.code_url, w.code_note, w.doi, w.paper_url].map(csvCell).join(",");
     });
     var blob = new Blob(["﻿" + head.map(csvCell).join(",") + "\r\n" + rows.join("\r\n")], { type: "text/csv;charset=utf-8" });
     var a = el("a"); a.href = URL.createObjectURL(blob); a.download = "research_matrix_filtered.csv";
@@ -219,12 +220,9 @@
   bars($("dataset-chart"), topDs, topDs[0].n, "dataset");
   bars($("evidence-chart"), D.evidence.map(function (e) { return { label: e.label, n: e.n, cls: EVIDENCE_CLASS[e.group] }; }), W.length);
 
-  Array.prototype.slice.call(FILTERS.family.select.options, 1).forEach(function (o) {
-    var li = el("li"), b = el("button", FAMILY_CLASS[o.value] || "", o.value);
-    b.type = "button";
-    b.setAttribute("aria-label", "Filter the matrix by " + o.value);
-    b.addEventListener("click", function () { applyFilter("family", o.value); });
-    li.appendChild(b); $("family-chips").appendChild(li);
+  document.querySelectorAll("[data-family]").forEach(function (b) {
+    b.setAttribute("aria-label", "Filter the matrix by " + b.dataset.family);
+    b.addEventListener("click", function () { applyFilter("family", b.dataset.family); });
   });
 
   $("copy").addEventListener("click", function () {

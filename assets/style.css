@@ -177,6 +177,27 @@ footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .3
 footer p { margin: 0; }
 #tip { position: fixed; z-index: 40; max-width: 260px; padding: .28rem .5rem; border-radius: 2px; background: var(--fig-ink); color: #fff; font: .7rem/1.3 var(--sans); pointer-events: none; }
 
+.ga { max-width: 1400px; margin: 0 auto; padding: 1.1rem clamp(.6rem, 2vw, 1.6rem) 1.2rem; text-align: center; }
+.ga h2 { margin-bottom: .7rem; }
+.ga figure { margin: 0; }
+.ga img { display: block; width: 100%; height: auto; }
+.ga figcaption { margin-top: .4rem; font: .72rem var(--sans); }
+.brief-note { margin: 1.2rem 0 0; color: var(--text-2); font-size: .88rem; font-style: italic; }
+.points { margin: .2rem 0 .9rem; padding-left: 1.2rem; }
+.points li { margin-bottom: .32rem; text-align: justify; hyphens: auto; }
+.after-table { margin-top: 1rem; }
+.family-table button { padding: .12rem .42rem; border: .5pt solid var(--fig-ink); border-radius: 2px; color: var(--ink); font: 400 .68rem/1.3 var(--sans); text-align: left; cursor: pointer; }
+.family-table button:hover { outline: .7pt solid var(--fig-ink); }
+.family-table tbody th { font-weight: 400; }
+.family-table td { font-size: .8rem; }
+.booktabs + h3 { margin-top: 1.5rem; }
+.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; margin: .8rem 0 .4rem; }
+.cards > div { padding: .6rem .75rem; border: .7pt solid var(--fig-ink); border-radius: 2px; background: var(--teal-14); }
+.cards b { font-size: 1.5rem; line-height: 1.05; margin-right: .35rem; }
+.cards span { font: 700 .74rem var(--sans); color: var(--fig-ink); }
+.cards p { margin: .25rem 0 0; font-size: .84rem; line-height: 1.32; }
+.code-note { display: block; color: var(--text-2); cursor: help; }
+
 @media (max-width: 980px) {
   .layout { grid-template-columns: minmax(0, 1fr); }
   .toc { display: none; }
@@ -198,6 +219,9 @@ footer p { margin: 0; }
   .setting .track { grid-column: 1 / -1; grid-row: 2; }
   .bar-row { grid-template-columns: minmax(105px, 42%) minmax(0, 1fr) 28px; }
   .detail dl { grid-template-columns: minmax(0, 1fr); }
+  .cards { grid-template-columns: minmax(0, 1fr); }
+  .points li { text-align: left; hyphens: manual; }
+  .family-table { min-width: 520px; }
   .matrix-wrap { max-height: none; }
 }
 @media print { .topbar, .toc, .filters, .actions, .matrix-actions, #copy { display: none; } .matrix-wrap { max-height: none; overflow: visible; } }

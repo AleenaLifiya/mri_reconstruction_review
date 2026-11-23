@@ -2,7 +2,7 @@
 
 Companion resource for the review *Putting the Slices Together: A Review on Image-Domain MRI Reconstruction and Super-Resolution* (manuscript under review).
 
-**Website:** https://aleenalifiya.github.io/-mri_reconstruction_review/
+**Website:** https://aleenalifiya.github.io/mri_reconstruction_review/
 
 The site gives a short summary of the review and a searchable matrix of the 181 included studies. Each study can be filtered by reconstruction setting, source of the degraded input, anatomy, dataset, model family, supervision, year and code availability.
 

@@ -30,8 +30,9 @@
   "families": [
    "Transformer and attention"
   ],
-  "code": false,
-  "code_url": "",
+  "code": true,
+  "code_url": "https://github.com/wafaAlghallabi/MFomer",
+  "code_note": "",
   "doi": "10.1007/978-3-031-45673-2_11",
   "paper_url": "https://doi.org/10.1007/978-3-031-45673-2_11"
  },
@@ -63,6 +64,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/IEEECONF60004.2024.10942921",
   "paper_url": "https://doi.org/10.1109/IEEECONF60004.2024.10942921"
  },
@@ -96,6 +98,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/utcsilab/deep-jsense",
+  "code_note": "",
   "doi": "10.1007/978-3-030-87231-1_34",
   "paper_url": "https://doi.org/10.1007/978-3-030-87231-1_34"
  },
@@ -129,6 +132,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/Aymen-Ayaz/Brain-MRI-Simulation",
+  "code_note": "",
   "doi": "10.1016/j.compbiomed.2024.109301",
   "paper_url": "https://doi.org/10.1016/j.compbiomed.2024.109301"
  },
@@ -161,6 +165,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/TechnionComputationalMRILab/SIMPLE",
+  "code_note": "",
   "doi": "10.1007/978-3-032-05169-1_53",
   "paper_url": "https://doi.org/10.1007/978-3-032-05169-1_53"
  },
@@ -196,6 +201,7 @@
   ],
   "code": true,
   "code_url": "https://emmanuelleb985.github.io/XDiffusion/",
+  "code_note": "",
   "doi": "10.48550/ARXIV.2404.19604",
   "paper_url": "https://doi.org/10.48550/ARXIV.2404.19604"
  },
@@ -229,6 +235,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/soumickmj/DDoS",
+  "code_note": "",
   "doi": "10.1109/access.2024.3427674",
   "paper_url": "https://doi.org/10.1109/access.2024.3427674"
  },
@@ -260,6 +267,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/aiahpc66801.2025.11290302",
   "paper_url": "https://doi.org/10.1109/aiahpc66801.2025.11290302"
  },
@@ -295,6 +303,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/DLCV65218.2025.11088711",
   "paper_url": "https://doi.org/10.1109/DLCV65218.2025.11088711"
  },
@@ -326,6 +335,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.48550/arXiv.2003.01217",
   "paper_url": "https://doi.org/10.48550/arXiv.2003.01217"
  },
@@ -359,6 +369,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/MedAI59581.2023.00050",
   "paper_url": "https://doi.org/10.1109/MedAI59581.2023.00050"
  },
@@ -391,6 +402,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/BIBM62325.2024.10821756",
   "paper_url": "https://doi.org/10.1109/BIBM62325.2024.10821756"
  },
@@ -425,6 +437,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-981-96-2681-6_28",
   "paper_url": "https://doi.org/10.1007/978-981-96-2681-6_28"
  },
@@ -460,6 +473,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/s11760-025-04825-x",
   "paper_url": "https://doi.org/10.1007/s11760-025-04825-x"
  },
@@ -493,6 +507,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-032-05325-1_7",
   "paper_url": "https://doi.org/10.1007/978-3-032-05325-1_7"
  },
@@ -529,6 +544,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/TMI.2025.3628113",
   "paper_url": "https://doi.org/10.1109/TMI.2025.3628113"
  },
@@ -566,6 +582,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/Yonsei-MILab/TESLA",
+  "code_note": "",
   "doi": "10.1007/978-3-032-05169-1_56",
   "paper_url": "https://doi.org/10.1007/978-3-032-05169-1_56"
  },
@@ -598,6 +615,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/Yaolab-fantastic/DDASR",
+  "code_note": "",
   "doi": "10.1109/SMC54092.2024.10831184",
   "paper_url": "https://doi.org/10.1109/SMC54092.2024.10831184"
  },
@@ -629,6 +647,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/WACV57701.2024.00748",
   "paper_url": "https://doi.org/10.1109/WACV57701.2024.00748"
  },
@@ -660,6 +679,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/aspcon49795.2020.9276697",
   "paper_url": "https://doi.org/10.1109/aspcon49795.2020.9276697"
  },
@@ -691,6 +711,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/indicon56171.2022.10039876",
   "paper_url": "https://doi.org/10.1109/indicon56171.2022.10039876"
  },
@@ -720,6 +741,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/StanfordMIMI/skm-tea",
+  "code_note": "",
   "doi": "10.48550/arXiv.2203.06823",
   "paper_url": "https://doi.org/10.48550/arXiv.2203.06823"
  },
@@ -754,6 +776,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1145/3594315.3594331",
   "paper_url": "https://doi.org/10.1145/3594315.3594331"
  },
@@ -785,6 +808,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/ICABME53305.2021.9604810",
   "paper_url": "https://doi.org/10.1109/ICABME53305.2021.9604810"
  },
@@ -819,6 +843,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/s11760-025-04679-3",
   "paper_url": "https://doi.org/10.1007/s11760-025-04679-3"
  },
@@ -850,6 +875,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-032-04937-7_29",
   "paper_url": "https://doi.org/10.1007/978-3-032-04937-7_29"
  },
@@ -884,6 +910,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/JinglongDu/DCED",
+  "code_note": "",
   "doi": "10.1109/ACCESS.2020.2968395",
   "paper_url": "https://doi.org/10.1109/ACCESS.2020.2968395"
  },
@@ -915,6 +942,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/s10278-024-01250-3",
   "paper_url": "https://doi.org/10.1007/s10278-024-01250-3"
  },
@@ -948,6 +976,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/AIF4S/HUMUS-Net",
+  "code_note": "",
   "doi": "10.52202/068431-1835",
   "paper_url": "https://doi.org/10.52202/068431-1835"
  },
@@ -979,6 +1008,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/ElCon-CN69892.2026.11414044",
   "paper_url": "https://doi.org/10.1109/ElCon-CN69892.2026.11414044"
  },
@@ -1010,6 +1040,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/chunmeifeng/MINet",
+  "code_note": "",
   "doi": "10.1007/978-3-030-87231-1_14",
   "paper_url": "https://doi.org/10.1007/978-3-030-87231-1_14"
  },
@@ -1042,6 +1073,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1016/j.neucom.2021.01.130",
   "paper_url": "https://doi.org/10.1016/j.neucom.2021.01.130"
  },
@@ -1076,6 +1108,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/chunmeifeng/T2Net",
+  "code_note": "",
   "doi": "10.1007/978-3-030-87231-1_30",
   "paper_url": "https://doi.org/10.1007/978-3-030-87231-1_30"
  },
@@ -1112,6 +1145,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/papshare/FGDL",
+  "code_note": "",
   "doi": "10.1109/TMI.2024.3445969",
   "paper_url": "https://doi.org/10.1109/TMI.2024.3445969"
  },
@@ -1143,6 +1177,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/paulkogni/MR-Recon-UQ",
+  "code_note": "",
   "doi": "10.1007/978-3-031-44336-7_9",
   "paper_url": "https://doi.org/10.1007/978-3-031-44336-7_9"
  },
@@ -1174,6 +1209,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/BCV-Uniandes/SuperFormer",
+  "code_note": "",
   "doi": "10.1007/978-3-031-16980-9_13",
   "paper_url": "https://doi.org/10.1007/978-3-031-16980-9_13"
  },
@@ -1209,6 +1245,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/Z7Gao/MRPD",
+  "code_note": "",
   "doi": "",
   "paper_url": ""
  },
@@ -1242,6 +1279,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/s12555-024-0975-0",
   "paper_url": "https://doi.org/10.1007/s12555-024-0975-0"
  },
@@ -1275,6 +1313,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/lcbkmm/TC-KANRecon",
+  "code_note": "",
   "doi": "10.1109/JBHI.2025.3626343",
   "paper_url": "https://doi.org/10.1109/JBHI.2025.3626343"
  },
@@ -1306,6 +1345,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/BIBE60311.2023.00016",
   "paper_url": "https://doi.org/10.1109/BIBE60311.2023.00016"
  },
@@ -1337,6 +1377,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-981-16-9650-3_35",
   "paper_url": "https://doi.org/10.1007/978-981-16-9650-3_35"
  },
@@ -1370,6 +1411,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/guopengf/ReconFormer",
+  "code_note": "",
   "doi": "10.1109/TMI.2023.3314747",
   "paper_url": "https://doi.org/10.1109/TMI.2023.3314747"
  },
@@ -1402,6 +1444,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/bibm66473.2025.11356195",
   "paper_url": "https://doi.org/10.1109/bibm66473.2025.11356195"
  },
@@ -1433,6 +1476,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/bibm58861.2023.10385851",
   "paper_url": "https://doi.org/10.1109/bibm58861.2023.10385851"
  },
@@ -1469,6 +1513,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/ICFTIC64248.2024.10913155",
   "paper_url": "https://doi.org/10.1109/ICFTIC64248.2024.10913155"
  },
@@ -1503,6 +1548,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1145/3706890.3707038",
   "paper_url": "https://doi.org/10.1145/3706890.3707038"
  },
@@ -1537,6 +1583,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/ICBASE63199.2024.10762126",
   "paper_url": "https://doi.org/10.1109/ICBASE63199.2024.10762126"
  },
@@ -1570,6 +1617,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-981-96-5373-7_36",
   "paper_url": "https://doi.org/10.1007/978-981-96-5373-7_36"
  },
@@ -1605,6 +1653,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/embc44109.2020.9176241",
   "paper_url": "https://doi.org/10.1109/embc44109.2020.9176241"
  },
@@ -1638,6 +1687,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/isbiworkshops50223.2020.9153389",
   "paper_url": "https://doi.org/10.1109/isbiworkshops50223.2020.9153389"
  },
@@ -1674,6 +1724,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/ICASSP48485.2024.10448434",
   "paper_url": "https://doi.org/10.1109/ICASSP48485.2024.10448434"
  },
@@ -1705,6 +1756,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/ayanglab/SwinGANMR",
+  "code_note": "",
   "doi": "10.1109/embc48229.2022.9871475",
   "paper_url": "https://doi.org/10.1109/embc48229.2022.9871475"
  },
@@ -1740,6 +1792,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/Solor-pikachu/DCAMSR",
+  "code_note": "",
   "doi": "10.1007/978-3-031-43999-5_30",
   "paper_url": "https://doi.org/10.1007/978-3-031-43999-5_30"
  },
@@ -1773,6 +1826,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/s00371-023-02938-3",
   "paper_url": "https://doi.org/10.1007/s00371-023-02938-3"
  },
@@ -1807,6 +1861,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/BIBM58861.2023.10386025",
   "paper_url": "https://doi.org/10.1109/BIBM58861.2023.10386025"
  },
@@ -1836,6 +1891,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/sj-huang/3D-WISE",
+  "code_note": "",
   "doi": "10.1109/jbhi.2025.3638989",
   "paper_url": "https://doi.org/10.1109/jbhi.2025.3638989"
  },
@@ -1870,6 +1926,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/BIBM66473.2025.11356956",
   "paper_url": "https://doi.org/10.1109/BIBM66473.2025.11356956"
  },
@@ -1901,6 +1958,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/G-who0212/Partial_Fourier_Reconstruction_With_Zero-Shot_Deep_Untrained_Generative_Prior",
+  "code_note": "",
   "doi": "10.1109/ACCESS.2024.3508761",
   "paper_url": "https://doi.org/10.1109/ACCESS.2024.3508761"
  },
@@ -1933,6 +1991,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-031-42508-0_19",
   "paper_url": "https://doi.org/10.1007/978-3-031-42508-0_19"
  },
@@ -1964,6 +2023,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/tetci.2022.3215137",
   "paper_url": "https://doi.org/10.1109/tetci.2022.3215137"
  },
@@ -2002,6 +2062,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/SNU-LIST/MOST",
+  "code_note": "",
   "doi": "10.1007/978-3-032-04947-6_38",
   "paper_url": "https://doi.org/10.1007/978-3-032-04947-6_38"
  },
@@ -2035,6 +2096,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/bibm58861.2023.10385801",
   "paper_url": "https://doi.org/10.1109/bibm58861.2023.10385801"
  },
@@ -2068,6 +2130,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1145/3653781.3653787",
   "paper_url": "https://doi.org/10.1145/3653781.3653787"
  },
@@ -2103,6 +2166,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-031-72104-5_24",
   "paper_url": "https://doi.org/10.1007/978-3-031-72104-5_24"
  },
@@ -2134,6 +2198,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1038/s41598-020-80930-w",
   "paper_url": "https://doi.org/10.1038/s41598-020-80930-w"
  },
@@ -2165,6 +2230,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1016/j.cmpb.2024.108110",
   "paper_url": "https://doi.org/10.1016/j.cmpb.2024.108110"
  },
@@ -2198,6 +2264,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1016/j.bspc.2025.107777",
   "paper_url": "https://doi.org/10.1016/j.bspc.2025.107777"
  },
@@ -2233,6 +2300,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/lpcccc-cv/MC-VarNet",
+  "code_note": "",
   "doi": "10.1109/ICCV51070.2023.01947",
   "paper_url": "https://doi.org/10.1109/ICCV51070.2023.01947"
  },
@@ -2269,6 +2337,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/lpcccc-cv/A2-CDic",
+  "code_note": "",
   "doi": "10.1109/TMI.2025.3563523",
   "paper_url": "https://doi.org/10.1109/TMI.2025.3563523"
  },
@@ -2305,6 +2374,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1016/j.neucom.2025.131389",
   "paper_url": "https://doi.org/10.1016/j.neucom.2025.131389"
  },
@@ -2336,6 +2406,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/XAIMI-Lab/McMRSR",
+  "code_note": "",
   "doi": "10.1109/CVPR52688.2022.01998",
   "paper_url": "https://doi.org/10.1109/CVPR52688.2022.01998"
  },
@@ -2370,6 +2441,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/XAIMI-Lab/WavTrans",
+  "code_note": "",
   "doi": "10.1007/978-3-031-16446-0_44",
   "paper_url": "https://doi.org/10.1007/978-3-031-16446-0_44"
  },
@@ -2402,6 +2474,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/GuangYuanKK/McASSR",
+  "code_note": "",
   "doi": "10.1109/ICCV51070.2023.01941",
   "paper_url": "https://doi.org/10.1109/ICCV51070.2023.01941"
  },
@@ -2435,6 +2508,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-981-99-0923-0_1",
   "paper_url": "https://doi.org/10.1007/978-981-99-0923-0_1"
  },
@@ -2466,6 +2540,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/GuangYuanKK/DiffMSR",
+  "code_note": "",
   "doi": "10.1109/CVPR52733.2024.01080",
   "paper_url": "https://doi.org/10.1109/CVPR52733.2024.01080"
  },
@@ -2497,6 +2572,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/ISBI56570.2024.10635265",
   "paper_url": "https://doi.org/10.1109/ISBI56570.2024.10635265"
  },
@@ -2528,6 +2604,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-031-72104-5_26",
   "paper_url": "https://doi.org/10.1007/978-3-031-72104-5_26"
  },
@@ -2565,8 +2642,9 @@
    "State-space and Mamba",
    "Transformer and attention"
   ],
-  "code": false,
+  "code": true,
   "code_url": "",
+  "code_note": "The paper states github/MRISR, which is an incomplete address",
   "doi": "10.3390/info15100655",
   "paper_url": "https://doi.org/10.3390/info15100655"
  },
@@ -2601,6 +2679,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/TMI.2025.3558164",
   "paper_url": "https://doi.org/10.1109/TMI.2025.3558164"
  },
@@ -2635,6 +2714,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1088/1361-6560/adbed4",
   "paper_url": "https://doi.org/10.1088/1361-6560/adbed4"
  },
@@ -2669,6 +2749,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/CBMS55023.2022.00060",
   "paper_url": "https://doi.org/10.1109/CBMS55023.2022.00060"
  },
@@ -2703,6 +2784,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1145/3650400.3650458",
   "paper_url": "https://doi.org/10.1145/3650400.3650458"
  },
@@ -2746,6 +2828,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1155/2021/5594649",
   "paper_url": "https://doi.org/10.1155/2021/5594649"
  },
@@ -2784,6 +2867,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-030-87231-1_21",
   "paper_url": "https://doi.org/10.1007/978-3-030-87231-1_21"
  },
@@ -2815,6 +2899,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-031-21014-3_3",
   "paper_url": "https://doi.org/10.1007/978-3-031-21014-3_3"
  },
@@ -2851,6 +2936,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-031-16446-0_31",
   "paper_url": "https://doi.org/10.1007/978-3-031-16446-0_31"
  },
@@ -2885,6 +2971,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-031-34048-2_31",
   "paper_url": "https://doi.org/10.1007/978-3-031-34048-2_31"
  },
@@ -2917,6 +3004,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/TCI.2024.3393723",
   "paper_url": "https://doi.org/10.1109/TCI.2024.3393723"
  },
@@ -2952,6 +3040,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/yimingliu123/FASR-Net",
+  "code_note": "",
   "doi": "10.1109/TMM.2023.3330085",
   "paper_url": "https://doi.org/10.1109/TMM.2023.3330085"
  },
@@ -2983,6 +3072,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "",
   "paper_url": ""
  },
@@ -3018,6 +3108,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/JBHI.2025.3544265",
   "paper_url": "https://doi.org/10.1109/JBHI.2025.3544265"
  },
@@ -3052,6 +3143,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.3390/ai6110291",
   "paper_url": "https://doi.org/10.3390/ai6110291"
  },
@@ -3088,6 +3180,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/JK-Liu7/CoPeDiT",
+  "code_note": "",
   "doi": "10.48550/arXiv.2602.18400",
   "paper_url": "https://doi.org/10.48550/arXiv.2602.18400"
  },
@@ -3123,6 +3216,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/YangGaoUQ/SSDM-MRI",
+  "code_note": "",
   "doi": "10.1109/TMI.2026.3654585",
   "paper_url": "https://doi.org/10.1109/TMI.2026.3654585"
  },
@@ -3156,6 +3250,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/Tsaiyue/JEO4MRI",
+  "code_note": "",
   "doi": "10.1109/tci.2024.3518210",
   "paper_url": "https://doi.org/10.1109/tci.2024.3518210"
  },
@@ -3191,6 +3286,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-032-04965-0_40",
   "paper_url": "https://doi.org/10.1007/978-3-032-04965-0_40"
  },
@@ -3225,6 +3321,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/TMI.2020.2974858",
   "paper_url": "https://doi.org/10.1109/TMI.2020.2974858"
  },
@@ -3258,6 +3355,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/tci.2020.2964201",
   "paper_url": "https://doi.org/10.1109/tci.2020.2964201"
  },
@@ -3290,6 +3388,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/XAIMI-Lab/McMRSR",
+  "code_note": "",
   "doi": "10.1109/TNNLS.2023.3250491",
   "paper_url": "https://doi.org/10.1109/TNNLS.2023.3250491"
  },
@@ -3323,6 +3422,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1016/j.media.2024.103142",
   "paper_url": "https://doi.org/10.1016/j.media.2024.103142"
  },
@@ -3359,6 +3459,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/BIBM62325.2024.10821821",
   "paper_url": "https://doi.org/10.1109/BIBM62325.2024.10821821"
  },
@@ -3390,6 +3491,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/icip55913.2025.11084478",
   "paper_url": "https://doi.org/10.1109/icip55913.2025.11084478"
  },
@@ -3423,6 +3525,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1145/3563737.3563759",
   "paper_url": "https://doi.org/10.1145/3563737.3563759"
  },
@@ -3456,6 +3559,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/Yebulabula/DisC-Diff",
+  "code_note": "",
   "doi": "10.1007/978-3-031-43999-5_37",
   "paper_url": "https://doi.org/10.1007/978-3-031-43999-5_37"
  },
@@ -3488,6 +3592,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/jqmcginnis/multi_contrast_inr",
+  "code_note": "",
   "doi": "10.1007/978-3-031-43993-3_17",
   "paper_url": "https://doi.org/10.1007/978-3-031-43993-3_17"
  },
@@ -3519,6 +3624,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/SIU59756.2023.10223786",
   "paper_url": "https://doi.org/10.1109/SIU59756.2023.10223786"
  },
@@ -3550,6 +3656,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/s11042-021-11697-z",
   "paper_url": "https://doi.org/10.1007/s11042-021-11697-z"
  },
@@ -3581,6 +3688,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/NikolasMorshuis/SGR",
+  "code_note": "",
   "doi": "10.1007/978-3-031-72744-3_18",
   "paper_url": "https://doi.org/10.1007/978-3-031-72744-3_18"
  },
@@ -3614,6 +3722,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/tmi.2021.3112040",
   "paper_url": "https://doi.org/10.1109/tmi.2021.3112040"
  },
@@ -3648,6 +3757,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/SaharAlmahfouzNasser/MRI-SuperResolution",
+  "code_note": "",
   "doi": "10.1109/embc48229.2022.9871832",
   "paper_url": "https://doi.org/10.1109/embc48229.2022.9871832"
  },
@@ -3682,6 +3792,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/BDIMed67722.2025.11309333",
   "paper_url": "https://doi.org/10.1109/BDIMed67722.2025.11309333"
  },
@@ -3719,6 +3830,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1016/j.bspc.2024.106218",
   "paper_url": "https://doi.org/10.1016/j.bspc.2024.106218"
  },
@@ -3751,8 +3863,9 @@
    "CNN and encoder-decoder",
    "Transformer and attention"
   ],
-  "code": false,
-  "code_url": "",
+  "code": true,
+  "code_url": "https://github.com/susant146/ReconFormer-EDR-FastMRI",
+  "code_note": "",
   "doi": "10.1109/cvmi66673.2025.11337834",
   "paper_url": "https://doi.org/10.1109/cvmi66673.2025.11337834"
  },
@@ -3788,6 +3901,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/tcsvt.2024.3525015",
   "paper_url": "https://doi.org/10.1109/tcsvt.2024.3525015"
  },
@@ -3823,6 +3937,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/BIBM66473.2025.11356743",
   "paper_url": "https://doi.org/10.1109/BIBM66473.2025.11356743"
  },
@@ -3855,6 +3970,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/Q-D-F/DBSR",
+  "code_note": "",
   "doi": "10.1109/tmm.2024.3453059",
   "paper_url": "https://doi.org/10.1109/tmm.2024.3453059"
  },
@@ -3887,6 +4003,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/jiot.2024.3418381",
   "paper_url": "https://doi.org/10.1109/jiot.2024.3418381"
  },
@@ -3919,6 +4036,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/embc44109.2020.9176100",
   "paper_url": "https://doi.org/10.1109/embc44109.2020.9176100"
  },
@@ -3950,6 +4068,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/indiscon66021.2025.11254579",
   "paper_url": "https://doi.org/10.1109/indiscon66021.2025.11254579"
  },
@@ -3985,6 +4104,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/isbi60581.2025.10980977",
   "paper_url": "https://doi.org/10.1109/isbi60581.2025.10980977"
  },
@@ -4018,6 +4138,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/ICEEAC61226.2024.10576395",
   "paper_url": "https://doi.org/10.1109/ICEEAC61226.2024.10576395"
  },
@@ -4051,6 +4172,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/MajaSchle/tripleSR",
+  "code_note": "",
   "doi": "10.1007/978-3-032-04947-6_17",
   "paper_url": "https://doi.org/10.1007/978-3-032-04947-6_17"
  },
@@ -4083,6 +4205,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-032-15407-1_19",
   "paper_url": "https://doi.org/10.1007/978-3-032-15407-1_19"
  },
@@ -4116,6 +4239,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/NTCI60157.2023.10403709",
   "paper_url": "https://doi.org/10.1109/NTCI60157.2023.10403709"
  },
@@ -4151,6 +4275,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/GuoyaoShen/MR-IPT",
+  "code_note": "",
   "doi": "10.1038/s41598-025-23851-w",
   "paper_url": "https://doi.org/10.1038/s41598-025-23851-w"
  },
@@ -4187,6 +4312,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/TIP.2026.3673935",
   "paper_url": "https://doi.org/10.1109/TIP.2026.3673935"
  },
@@ -4218,8 +4344,9 @@
   "families": [
    "CNN and encoder-decoder"
   ],
-  "code": false,
-  "code_url": "",
+  "code": true,
+  "code_url": "https://github.com/DeepMed-Lab-ECNU/Medical-Image-Reconstruction",
+  "code_note": "",
   "doi": "10.1109/TMI.2024.3394033",
   "paper_url": "https://doi.org/10.1109/TMI.2024.3394033"
  },
@@ -4255,6 +4382,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.23919/CCC64809.2025.11179336",
   "paper_url": "https://doi.org/10.23919/CCC64809.2025.11179336"
  },
@@ -4289,6 +4417,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/AIBDF67964.2025.11440864",
   "paper_url": "https://doi.org/10.1109/AIBDF67964.2025.11440864"
  },
@@ -4322,6 +4451,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-030-87231-1_42",
   "paper_url": "https://doi.org/10.1007/978-3-030-87231-1_42"
  },
@@ -4354,6 +4484,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/TMI.2022.3142610",
   "paper_url": "https://doi.org/10.1109/TMI.2022.3142610"
  },
@@ -4389,6 +4520,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/JBHI.2024.3413083",
   "paper_url": "https://doi.org/10.1109/JBHI.2024.3413083"
  },
@@ -4423,6 +4555,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/LSP.2025.3560594",
   "paper_url": "https://doi.org/10.1109/LSP.2025.3560594"
  },
@@ -4454,6 +4587,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/EMBC58623.2025.11254149",
   "paper_url": "https://doi.org/10.1109/EMBC58623.2025.11254149"
  },
@@ -4485,6 +4619,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.3390/s24206639",
   "paper_url": "https://doi.org/10.3390/s24206639"
  },
@@ -4522,6 +4657,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/ACROSET66531.2025.11281289",
   "paper_url": "https://doi.org/10.1109/ACROSET66531.2025.11281289"
  },
@@ -4556,6 +4692,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1016/j.mri.2024.04.021",
   "paper_url": "https://doi.org/10.1016/j.mri.2024.04.021"
  },
@@ -4592,6 +4729,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/BIBM55620.2022.9995219",
   "paper_url": "https://doi.org/10.1109/BIBM55620.2022.9995219"
  },
@@ -4626,6 +4764,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/BioMedAI-UCSC/InverseSR",
+  "code_note": "",
   "doi": "10.1007/978-3-031-43999-5_42",
   "paper_url": "https://doi.org/10.1007/978-3-031-43999-5_42"
  },
@@ -4659,6 +4798,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/wqlevi/DISGAN",
+  "code_note": "",
   "doi": "10.1109/ICCVW60793.2023.00259",
   "paper_url": "https://doi.org/10.1109/ICCVW60793.2023.00259"
  },
@@ -4693,6 +4833,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/BIBM58861.2023.10385408",
   "paper_url": "https://doi.org/10.1109/BIBM58861.2023.10385408"
  },
@@ -4724,6 +4865,7 @@
   "families": [],
   "code": true,
   "code_url": "https://github.com/anonymousreviewonly/MRI_SR",
+  "code_note": "",
   "doi": "10.1109/ISCC61673.2024.10733580",
   "paper_url": "https://doi.org/10.1109/ISCC61673.2024.10733580"
  },
@@ -4758,6 +4900,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/crsit66101.2025.11141601",
   "paper_url": "https://doi.org/10.1109/crsit66101.2025.11141601"
  },
@@ -4792,6 +4935,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/Dohbby/DGWMSR",
+  "code_note": "",
   "doi": "10.1109/jbhi.2025.3602466",
   "paper_url": "https://doi.org/10.1109/jbhi.2025.3602466"
  },
@@ -4823,6 +4967,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-031-73284-3_17",
   "paper_url": "https://doi.org/10.1007/978-3-031-73284-3_17"
  },
@@ -4861,6 +5006,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1016/j.knosys.2024.112938",
   "paper_url": "https://doi.org/10.1016/j.knosys.2024.112938"
  },
@@ -4894,8 +5040,9 @@
    "CNN and encoder-decoder",
    "Transformer and attention"
   ],
-  "code": false,
-  "code_url": "",
+  "code": true,
+  "code_url": "https://github.com/xiaozhongstudent/Magnetic-Resonance-Image-SuperResolution-Reconstruction",
+  "code_note": "",
   "doi": "10.1109/TETCI.2025.3607396",
   "paper_url": "https://doi.org/10.1109/TETCI.2025.3607396"
  },
@@ -4932,6 +5079,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/weijinbao1998/DINet",
+  "code_note": "",
   "doi": "10.1109/TCSVT.2025.3556210",
   "paper_url": "https://doi.org/10.1109/TCSVT.2025.3556210"
  },
@@ -4968,6 +5116,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-031-73284-3_25",
   "paper_url": "https://doi.org/10.1007/978-3-031-73284-3_25"
  },
@@ -5000,6 +5149,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1049/cit2.70032",
   "paper_url": "https://doi.org/10.1049/cit2.70032"
  },
@@ -5031,6 +5181,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/tim.2025.3554850",
   "paper_url": "https://doi.org/10.1109/tim.2025.3554850"
  },
@@ -5065,6 +5216,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/daviddmc/NeSVoR",
+  "code_note": "",
   "doi": "10.1109/TMI.2023.3236216",
   "paper_url": "https://doi.org/10.1109/TMI.2023.3236216"
  },
@@ -5098,6 +5250,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/JBHI.2019.2945373",
   "paper_url": "https://doi.org/10.1109/JBHI.2019.2945373"
  },
@@ -5132,6 +5285,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/isbi56570.2024.10635766",
   "paper_url": "https://doi.org/10.1109/isbi56570.2024.10635766"
  },
@@ -5167,6 +5321,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/ICIP46576.2022.9897337",
   "paper_url": "https://doi.org/10.1109/ICIP46576.2022.9897337"
  },
@@ -5201,6 +5356,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/APSIPAASC58517.2023.10317545",
   "paper_url": "https://doi.org/10.1109/APSIPAASC58517.2023.10317545"
  },
@@ -5232,6 +5388,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/ICMIPE53131.2021.9698880",
   "paper_url": "https://doi.org/10.1109/ICMIPE53131.2021.9698880"
  },
@@ -5266,6 +5423,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/BIBM66473.2025.11356241",
   "paper_url": "https://doi.org/10.1109/BIBM66473.2025.11356241"
  },
@@ -5305,6 +5463,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/JBHI.2025.3602999",
   "paper_url": "https://doi.org/10.1109/JBHI.2025.3602999"
  },
@@ -5339,6 +5498,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/yggame/MGDUN",
+  "code_note": "",
   "doi": "10.1145/3503161.3548068",
   "paper_url": "https://doi.org/10.1145/3503161.3548068"
  },
@@ -5374,6 +5534,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/zhiyuan-yang/Edge-Guided-Cross-Scale-MRI-Super-resolution",
+  "code_note": "",
   "doi": "10.1007/978-3-031-78398-2_14",
   "paper_url": "https://doi.org/10.1007/978-3-031-78398-2_14"
  },
@@ -5407,6 +5568,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/Yaziwel/TAT",
+  "code_note": "",
   "doi": "10.1007/978-3-032-05325-1_54",
   "paper_url": "https://doi.org/10.1007/978-3-032-05325-1_54"
  },
@@ -5441,6 +5603,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/icip49359.2023.10222487",
   "paper_url": "https://doi.org/10.1109/icip49359.2023.10222487"
  },
@@ -5473,6 +5636,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1145/3746027.3755260",
   "paper_url": "https://doi.org/10.1145/3746027.3755260"
  },
@@ -5506,6 +5670,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.3390/s21092978",
   "paper_url": "https://doi.org/10.3390/s21092978"
  },
@@ -5539,6 +5704,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/ISBI53787.2023.10230678",
   "paper_url": "https://doi.org/10.1109/ISBI53787.2023.10230678"
  },
@@ -5570,6 +5736,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1145/3671151.3671318",
   "paper_url": "https://doi.org/10.1145/3671151.3671318"
  },
@@ -5606,6 +5773,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/BIBM66473.2025.11356362",
   "paper_url": "https://doi.org/10.1109/BIBM66473.2025.11356362"
  },
@@ -5641,6 +5809,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1016/j.bspc.2025.109308",
   "paper_url": "https://doi.org/10.1016/j.bspc.2025.109308"
  },
@@ -5681,6 +5850,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/tip.2026.3678052",
   "paper_url": "https://doi.org/10.1109/tip.2026.3678052"
  },
@@ -5716,6 +5886,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/tmi.2024.3483109",
   "paper_url": "https://doi.org/10.1109/tmi.2024.3483109"
  },
@@ -5748,6 +5919,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/BIBM66473.2025.11356829",
   "paper_url": "https://doi.org/10.1109/BIBM66473.2025.11356829"
  },
@@ -5782,6 +5954,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/JBHI.2025.3555603",
   "paper_url": "https://doi.org/10.1109/JBHI.2025.3555603"
  },
@@ -5817,6 +5990,7 @@
   ],
   "code": true,
   "code_url": "https://github.com/fangxiaojia0/An-Arbitrary-Scale-Super-Resolution-Network-for-Multi-Contrast-MRI-With-Permuted-Cross-Attention",
+  "code_note": "",
   "doi": "10.1109/jbhi.2025.3548696",
   "paper_url": "https://doi.org/10.1109/jbhi.2025.3548696"
  },
@@ -5853,6 +6027,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-981-95-5631-1_31",
   "paper_url": "https://doi.org/10.1007/978-981-95-5631-1_31"
  },
@@ -5887,6 +6062,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1145/3746027.3754934",
   "paper_url": "https://doi.org/10.1145/3746027.3754934"
  },
@@ -5919,6 +6095,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/978-3-031-73284-3_38",
   "paper_url": "https://doi.org/10.1007/978-3-031-73284-3_38"
  },
@@ -5951,6 +6128,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/icdsca63855.2024.10860042",
   "paper_url": "https://doi.org/10.1109/icdsca63855.2024.10860042"
  },
@@ -5982,6 +6160,7 @@
   "families": [],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1007/s00034-025-03150-5",
   "paper_url": "https://doi.org/10.1007/s00034-025-03150-5"
  },
@@ -6015,6 +6194,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1109/isbi60581.2025.10980952",
   "paper_url": "https://doi.org/10.1109/isbi60581.2025.10980952"
  },
@@ -6048,6 +6228,7 @@
   ],
   "code": false,
   "code_url": "",
+  "code_note": "",
   "doi": "10.1016/j.bspc.2022.104154",
   "paper_url": "https://doi.org/10.1016/j.bspc.2022.104154"
  }
