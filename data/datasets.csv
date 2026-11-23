@@ -1,0 +1,41 @@
+﻿Dataset,Anatomy,Modalities,Reviewed works using it
+IXI,Brain,"T1, T2, PD, MRA, DWI",73
+fastMRI Brain,Brain,"T1, T1post, T2, FLAIR",44
+BraTS family,Brain,"T1, T1ce, T2, FLAIR",38
+fastMRI Knee,Knee,"Cor PD, Cor PD-FS, Sag T2",34
+HCP (Lifespan),Brain,"HCP-YA/A/D, dHCP, BCP",23
+ADNI,Brain,"T1, FLAIR, T2, GRE, DTI, ASL",5
+ALVIN,Brain,T1,5
+Calgary-Campinas,Brain,T1 (12-channel),5
+Kirby21,Brain,"MPRAGE, FLAIR, DTI",5
+OASIS,Brain,T1,5
+ACDC,Heart,cine,4
+SKM-TEA,Knee,qDESS,4
+CHAOS,Other,"T1, T2",3
+FeTA (fetal),Brain,,3
+NAMIC,Brain,,3
+UK Biobank,Other,,3
+AMRG Cardiac Atlas,Heart,,2
+CMRxRecon,Heart,"2023, 2024",2
+Figshare brain tumour,Brain,,2
+M4Raw,Brain,low-field multi-contrast,2
+MSSEG,Brain,,2
+PROSTATEx,Other,,2
+SIMON,Brain,,2
+Stanford 3D FSE,Knee,,2
+York Cardiac MRI,Heart,,2
+\mu-RegPro,Other,MR-US,1
+3D-MR-MS,Brain,,1
+ATLAS,Brain,,1
+CBCP,Brain,,1
+IVDM3Seg,Other,,1
+KBASE,Brain,,1
+MRBrainS18,Brain,,1
+MRNet,Knee,,1
+PI-CAI,Other,,1
+RIRE,Brain,,1
+Siar,Brain,,1
+Stanford 2D FSE,Knee,,1
+SuperMUDI 2020,Brain,diffusion,1
+TCIA,Other,repository,1
+mridata.org,Other,repository,1

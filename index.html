@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#ffffff">
+<title>Putting the Slices Together: A Review on Image-Domain MRI Reconstruction and Super-Resolution</title>
+<meta name="description" content="Companion site to a systematic review of image-domain MRI reconstruction and super-resolution: a searchable matrix of 181 studies with datasets, settings and code links.">
+<link rel="preload" href="assets/fonts/lmroman10-regular.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#matrix">Skip to the research matrix</a>
+<header class="topbar">
+  <a class="brand" href="#top">Putting the Slices Together</a>
+  <nav aria-label="Main">
+    <a href="#summary">Summary</a>
+    <a href="#matrix">Research matrix</a>
+    <a href="#cite">Cite</a>
+    <a href="https://github.com/AleenaLifiya/-mri_reconstruction_review">GitHub</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <p class="eyebrow">Companion site · Manuscript under review</p>
+  <h1>Putting the Slices Together: A Review on Image-Domain MRI Reconstruction and Super-Resolution</h1>
+  <p class="authors">
+    <a href="https://orcid.org/0009-0005-8728-2470">Aleena Lifiya Jeffy</a><sup>1,2</sup>,
+    <a href="https://orcid.org/0000-0003-4812-614X">Mohammed Q. Alkhatib</a><sup>1</sup>,
+    <a href="https://orcid.org/0000-0002-1696-7764">Marouane Tliba</a><sup>3</sup>,
+    <a href="https://orcid.org/0000-0002-2066-4707">Aladine Chetouani</a><sup>3</sup>,
+    <a href="https://orcid.org/0000-0002-5906-0249">Nour Aburaed</a><sup>1</sup>
+  </p>
+  <p class="affil"><sup>1</sup>College of Engineering and IT, University of Dubai, Dubai, United Arab Emirates<br>
+  <sup>2</sup>American University of Sharjah, Sharjah, United Arab Emirates<br>
+  <sup>3</sup>L2TI, Université Sorbonne Paris Nord, Villetaneuse, France</p>
+  <div class="abstract">
+    <h2>Abstract</h2>
+    <p>Magnetic resonance imaging (MRI) depicts soft tissue with high contrast and without ionizing radiation, which makes it central to diagnosis and quantitative anatomical studies. Acquisition is slow, however, because spatial resolution, signal-to-noise ratio and scan time are coupled, and longer scans are more exposed to patient motion. Clinical protocols therefore shorten scans by undersampling or acquiring thick, widely spaced slices, which leaves volumes degraded and anisotropic. Image-domain reconstruction and super-resolution estimate the missing information after a shorter acquisition, and some methods also correct motion between slices. This review surveys such methods published from 2020 to 2026, selecting 181 of 452 records from four sources, reported with a Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 flow diagram. It defines six reconstruction settings with one forward model and classifies every study by setting and by whether its degraded input is simulated or acquired. Beyond a taxonomy of classical interpolation and seven deep learning families, it examines public datasets and their populations, reported image quality, validation through downstream tasks, clinical readers, anatomical measurements and uncertainty, and computational cost. The analysis shows that through-plane settings receive less attention than in-plane ones and most evidence rests on simulated degradation and image-quality scores. The review closes with a reporting checklist and research directions, including the role of agentic artificial intelligence, to move these methods toward clinical confidence.</p>
+  </div>
+  <div class="actions">
+    <a class="btn primary" href="#matrix">Explore the 181 studies</a>
+    <a class="btn" href="data/research_matrix.csv" download>Download the matrix</a>
+    <a class="btn" href="https://github.com/AleenaLifiya/-mri_reconstruction_review">GitHub</a>
+    <a class="btn" href="#cite">Cite</a>
+  </div>
+  <dl class="stats">
+    <div><dd>181</dd><dt>studies reviewed</dt></div>
+    <div><dd>40</dd><dt>public datasets</dt></div>
+    <div><dd>32</dd><dt>address a through-plane setting</dt></div>
+    <div><dd>29</dd><dt>test a real degraded input</dt></div>
+    <div><dd>51</dd><dt>release code</dt></div>
+  </dl>
+</section>
+
+<div class="layout" id="summary">
+<aside class="toc" aria-label="Sections">
+  <p>Contents</p>
+  <ol>
+    <li><a href="#why">Why it matters</a></li>
+    <li><a href="#selection">Study selection</a></li>
+    <li><a href="#settings">Six settings</a></li>
+    <li><a href="#datasets">Datasets</a></li>
+    <li><a href="#models">Models</a></li>
+    <li><a href="#evidence">Evidence</a></li>
+    <li><a href="#next">What to do next</a></li>
+    <li><a href="#matrix">Research matrix</a></li>
+  </ol>
+</aside>
+
+<div class="content">
+<section id="why">
+  <h2><span>1</span>Why it matters</h2>
+  <p>MRI depicts soft tissue with high contrast and without ionizing radiation, but a high-resolution scan takes time, and longer scans are more exposed to patient motion. Clinical protocols therefore shorten scans by undersampling or by acquiring thick, widely spaced slices. Image-domain reconstruction and super-resolution estimate the missing information after the shorter acquisition.</p>
+  <p class="key"><strong>Main finding.</strong> Through-plane settings match the thick or widely spaced slices of clinical protocols, yet 32 of the 181 works address them, against 92 for in-plane super-resolution. Most of the evidence rests on simulated degradation and image-quality scores.</p>
+</section>
+
+<section id="selection">
+  <h2><span>2</span>How the studies were selected</h2>
+  <p>The search covered Google Scholar, IEEE Xplore, Springer Nature Link and the ACM Digital Library, with citation searching, for works published from 2020 to 2026. The procedure is adapted from the PRISMA 2020 statement. Included works use a publicly available MRI dataset and an image-domain or hybrid image and k-space method.</p>
+  <figure class="fig">
+    <ol class="flow" aria-label="Selection flow">
+      <li><b>452</b><span>records identified</span><small>438 databases, 14 citation searching</small></li>
+      <li><b>400</b><span>screened</span><small>52 duplicates removed</small></li>
+      <li><b>254</b><span>full texts assessed</span><small>146 excluded at screening</small></li>
+      <li class="end"><b>181</b><span>studies included</span><small>73 excluded at full text</small></li>
+    </ol>
+    <figcaption><b>Selection flow.</b> Records at each stage of the review</figcaption>
+  </figure>
+</section>
+
+<section id="settings">
+  <h2><span>3</span>Six reconstruction settings</h2>
+  <p>One forward model describes the acquired volume <i>X</i> as a degraded version of the dense volume <i>Y</i>, and a model estimates <i>Y</i> from it:</p>
+  <p class="formula"><i>X</i> = <i>H</i><sub>δ</sub>(<i>Y</i>), &nbsp;&nbsp; <i>Ŷ</i> = <i>f</i><sub>θ</sub>(<i>X</i>)</p>
+  <p>A setting is defined by which operators in <i>H</i><sub>δ</sub> are active. The settings remove different information, so progress in one does not carry over to another by default. Select a setting to filter the matrix.</p>
+  <figure class="fig">
+    <div id="settings-chart" class="setting-list"></div>
+    <div class="legend" aria-hidden="true"><span><i class="swatch on"></i>Through-plane</span><span><i class="swatch report"></i>Other settings</span></div>
+    <figcaption><b>Works per setting.</b> A work in several settings is counted under each. 13 works do so, 7 do not state the plane or type of their setting, and 1 fits none of the six</figcaption>
+  </figure>
+  <h3>Where the degraded input comes from</h3>
+  <p>Only 29 works test a degraded input from a real acquisition. For most works, performance on acquired data is untested.</p>
+  <figure class="fig">
+    <div id="source-chart" class="bars"></div>
+    <figcaption><b>Source of the degraded input.</b> Number of the 181 reviewed works</figcaption>
+  </figure>
+</section>
+
+<section id="datasets">
+  <h2><span>4</span>Datasets</h2>
+  <p>The 181 works use 40 public datasets. Five of them (IXI, fastMRI Brain, the BraTS family, fastMRI Knee and the Human Connectome Project) account for 73&nbsp;% of the 290 paper-dataset associations, and 15 datasets are used by exactly one work. The cohorts behind them are mostly healthy or undocumented adults.</p>
+  <figure class="fig">
+    <div id="dataset-chart" class="bars"></div>
+    <figcaption><b>Most used datasets.</b> Reviewed works per dataset. The <a href="data/datasets.csv" download>full list</a> gives all 40</figcaption>
+  </figure>
+</section>
+
+<section id="models">
+  <h2><span>5</span>Models</h2>
+  <p>The review covers classical interpolation and seven deep learning families. The field has moved from convolutional and adversarial networks to Transformers, diffusion models, implicit neural representations, deep unfolding and state-space models, and recent designs increasingly combine them. Select a family to filter the matrix.</p>
+  <ul class="chips" id="family-chips"></ul>
+</section>
+
+<section id="evidence">
+  <h2><span>6</span>What the evidence shows</h2>
+  <p>Reported scores cannot be ranked across studies, because degradations, data partitions, normalization and metric implementations differ.</p>
+  <figure class="fig">
+    <div id="evidence-chart" class="bars"></div>
+    <div class="legend" aria-hidden="true"><span><i class="swatch on"></i>Problem and data</span><span><i class="swatch valid"></i>Validation beyond image quality</span><span><i class="swatch report"></i>Reporting</span></div>
+    <figcaption><b>The evidence base at a glance.</b> Number of the 181 reviewed works with each property. A work can have several</figcaption>
+  </figure>
+  <p>Within each study, the results show what a method achieves under the conditions tested and how its performance falls as slices become sparser. The evidence does not yet show that a reconstructed slice can stand in for an acquired one in diagnosis. Every slice at an unacquired position is an estimate, and a lesion that lies entirely between acquired slices cannot be recovered by any model.</p>
+</section>
+
+<section id="next">
+  <h2><span>7</span>What would move the field</h2>
+  <ol class="actions-list">
+    <li><strong>Shared benchmarks with real paired acquisitions</strong>, with fixed partitions and shared metric code.</li>
+    <li><strong>Evaluation that follows the clinical question</strong>, counting missed and false findings.</li>
+    <li><strong>Reconstructions that state a calibrated confidence</strong> and can be checked without a reference.</li>
+    <li><strong>Complete reporting</strong>, including end-to-end reconstruction time on stated hardware.</li>
+  </ol>
+  <div class="table-wrap booktabs">
+  <table class="checklist">
+    <caption><b>Reporting checklist</b> for studies of MRI slice reconstruction and super-resolution.</caption>
+    <thead><tr><th scope="col">Topic</th><th scope="col">What to report</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Setting</th><td>The reconstruction setting and active degradation operators, the factor and its kind, and results at several factors</td></tr>
+      <tr><th scope="row">Degraded input</th><td>Simulated or acquired, the full simulated operator, and at least one test on acquired data where the setting allows it</td></tr>
+      <tr><th scope="row">Data</th><td>Dataset and release, cohort, an explicit train, validation and test assignment, and results per dataset or organ</td></tr>
+      <tr><th scope="row">Image quality</th><td>Masked and unmasked scores, normalization and data range, metric library and parameters, 2D or 3D evaluation, and aggregation</td></tr>
+      <tr><th scope="row">Validation</th><td>Reader or downstream-task evidence for any clinical claim, with fixed task models and reader study design</td></tr>
+      <tr><th scope="row">Uncertainty</th><td>The uncertainty component, target, sampling, calibration or error criterion, and interval coverage with width</td></tr>
+      <tr><th scope="row">Computational cost</th><td>Parameters, operation counts, end-to-end time per volume and memory on stated hardware, throughput and, where possible, energy</td></tr>
+      <tr><th scope="row">Reproducibility</th><td>Code, trained weights and access to the data</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+</div>
+</div>
+
+<section id="matrix" class="matrix">
+  <div class="matrix-head">
+    <div>
+      <h2>Research matrix</h2>
+      <p>Every reviewed study, classified as in the manuscript. Search, filter, sort, and open a row for its degradation, factors and reference.</p>
+    </div>
+    <div class="matrix-actions">
+      <button type="button" class="btn" id="export">Download filtered CSV</button>
+      <a class="btn" href="data/research_matrix.json" download>JSON</a>
+    </div>
+  </div>
+  <div class="filters" role="search" aria-label="Filter studies">
+    <label class="search">Search<input id="q" type="search" placeholder="Title, author, dataset or model"></label>
+    <label>Setting<select id="f-setting"></select></label>
+    <label>Degraded input<select id="f-source"></select></label>
+    <label>Anatomy<select id="f-anatomy"></select></label>
+    <label>Dataset<select id="f-dataset"></select></label>
+    <label>Model family<select id="f-family"></select></label>
+    <label>Supervision<select id="f-supervision"></select></label>
+    <label>Year<select id="f-year"></select></label>
+    <label>Code<select id="f-code"></select></label>
+    <button type="button" class="btn ghost" id="reset">Clear</button>
+  </div>
+  <p class="count" id="count" role="status" aria-live="polite"></p>
+  <div class="table-wrap matrix-wrap booktabs" tabindex="0" role="region" aria-label="Research matrix table">
+    <table id="matrix-table">
+      <thead><tr>
+        <th scope="col"><button data-sort="study">Study</button></th>
+        <th scope="col"><button data-sort="year">Year</button></th>
+        <th scope="col"><button data-sort="settings">Setting</button></th>
+        <th scope="col"><button data-sort="source">Input</button></th>
+        <th scope="col"><button data-sort="anatomy">Anatomy</button></th>
+        <th scope="col"><button data-sort="datasets">Datasets</button></th>
+        <th scope="col"><button data-sort="families">Model family</button></th>
+        <th scope="col"><button data-sort="code">Links</button></th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <p class="note">Model family is shown where the review assigns a work to a family in its grouped lists. A dash means the work is not grouped there.</p>
+</section>
+
+<section id="cite" class="cite">
+  <h2>Cite this review</h2>
+  <p>The manuscript is under review, and this entry will be updated on publication.</p>
+  <div class="bib">
+    <button type="button" class="btn" id="copy">Copy BibTeX</button>
+<pre id="bibtex">@unpublished{jeffy2026slices,
+  title  = {Putting the Slices Together: A Review on Image-Domain
+            {MRI} Reconstruction and Super-Resolution},
+  author = {Jeffy, Aleena Lifiya and Alkhatib, Mohammed Q. and
+            Tliba, Marouane and Chetouani, Aladine and Aburaed, Nour},
+  year   = {2026},
+  note   = {Manuscript under review}
+}</pre>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>© 2026 The authors. The manuscript is the reference version of all counts and classifications.</p>
+  <p><a href="https://github.com/AleenaLifiya/-mri_reconstruction_review">Source and data on GitHub</a></p>
+</footer>
+<div id="tip" role="tooltip" hidden></div>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
