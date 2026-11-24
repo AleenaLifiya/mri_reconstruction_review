@@ -1996,6 +1996,74 @@
   "paper_url": "https://doi.org/10.1007/978-3-031-42508-0_19"
  },
  {
+  "id": "453",
+  "study": "Iglesias et al. (2023a)",
+  "title": "SynthSR: A public AI tool to turn heterogeneous clinical brain scans into high-resolution T1-weighted images for 3D morphometry",
+  "year": 2023,
+  "venue": "Science Advances",
+  "type": "Journal",
+  "anatomy": [
+   "Brain"
+  ],
+  "settings": [
+   "Sparse-to-dense",
+   "Thick-to-thin"
+  ],
+  "through_plane": true,
+  "source": "Simulated and real",
+  "degradation": "training: synthetic images from label maps with random contrast, orientation, slice spacing and thickness (partial voluming and subsampling), bias field and noise; none (real acquisition) at test",
+  "factors": "5 (5-mm axial FLAIR to 1 mm, ADNI); clinical slice spacing up to more than 6 mm (MGH)",
+  "reference": "separately acquired 1-mm MPRAGE of the same subject, compared through FreeSurfer and FSL volumes (ADNI; 435 MGH scans); landmarks for registration (BraTS-Reg)",
+  "supervision": [
+   "Paired"
+  ],
+  "input": "single volume of any contrast and orientation",
+  "datasets": [
+   "ADNI",
+   "ATLAS",
+   "BraTS family",
+   "OASIS"
+  ],
+  "families": [],
+  "code": true,
+  "code_url": "https://github.com/BBillot/SynthSR",
+  "code_note": "",
+  "doi": "10.1126/sciadv.add3607",
+  "paper_url": "https://doi.org/10.1126/sciadv.add3607"
+ },
+ {
+  "id": "454",
+  "study": "Iglesias et al. (2023b)",
+  "title": "Quantitative Brain Morphometry of Portable Low-Field-Strength MRI Using Super-Resolution Machine Learning",
+  "year": 2023,
+  "venue": "Radiology",
+  "type": "Journal",
+  "anatomy": [
+   "Brain"
+  ],
+  "settings": [
+   "Thick-to-thin"
+  ],
+  "through_plane": true,
+  "source": "Simulated and real",
+  "degradation": "training: SynthSR generator simulating low-field T1 and T2 scans from OASIS label maps; none (real 0.064-T acquisition) at test",
+  "factors": "5 through-plane (1.6 x 1.6 x 5 mm to 1-mm isotropic)",
+  "reference": "separately acquired 1.5-3 T scan of the same participant, compared through SynthSeg ROI volumes",
+  "supervision": [
+   "Paired"
+  ],
+  "input": "co-registered low-field T1- and T2-weighted volumes",
+  "datasets": [
+   "OASIS"
+  ],
+  "families": [],
+  "code": true,
+  "code_url": "https://github.com/BBillot/SynthSR",
+  "code_note": "",
+  "doi": "10.1148/radiol.220522",
+  "paper_url": "https://doi.org/10.1148/radiol.220522"
+ },
+ {
   "id": "213",
   "study": "Iwamoto et al. (2022)",
   "title": "Unsupervised MRI Super Resolution Using Deep External Learning and Guided Residual Dense Network With Multimodal Image Priors",

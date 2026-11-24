@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light">
 <meta name="theme-color" content="#ffffff">
-<title>Putting the Slices Together: A Review on Image-Domain MRI Reconstruction and Super-Resolution</title>
-<meta name="description" content="Companion site to a systematic review of image-domain MRI reconstruction and super-resolution: a searchable matrix of 181 studies with datasets, settings and code links.">
+<title>Putting the Slices Together: A Critical Review of AI for Image-Domain MRI Reconstruction and Super-Resolution</title>
+<meta name="description" content="Companion site to a critical review of AI for image-domain MRI reconstruction and super-resolution: a searchable matrix of 183 studies with datasets, settings and code links.">
 <link rel="preload" href="assets/fonts/lmroman10-regular.woff" as="font" type="font/woff" crossorigin>
 <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -25,7 +25,7 @@
 <main id="top">
 <section class="hero">
   <p class="eyebrow">Companion site · Manuscript under review</p>
-  <h1>Putting the Slices Together: A Review on Image-Domain MRI Reconstruction and Super-Resolution</h1>
+  <h1>Putting the Slices Together: A Critical Review of AI for Image-Domain MRI Reconstruction and Super-Resolution</h1>
   <p class="authors">
     <a href="https://orcid.org/0009-0005-8728-2470">Aleena Lifiya Jeffy</a><sup>1,2</sup>,
     <a href="https://orcid.org/0000-0003-4812-614X">Mohammed Q. Alkhatib</a><sup>1</sup>,
@@ -38,20 +38,20 @@
   <sup>3</sup>L2TI, Université Sorbonne Paris Nord, Villetaneuse, France</p>
   <div class="abstract">
     <h2>Abstract</h2>
-    <p>Magnetic resonance imaging (MRI) depicts soft tissue with high contrast and without ionizing radiation, which makes it central to diagnosis and quantitative anatomical studies. Acquisition is slow, however, because spatial resolution, signal-to-noise ratio and scan time are coupled, and longer scans are more exposed to patient motion. Clinical protocols therefore shorten scans by undersampling or acquiring thick, widely spaced slices, which leaves volumes degraded and anisotropic. Image-domain reconstruction and super-resolution estimate the missing information after a shorter acquisition, and some methods also correct motion between slices. This review surveys such methods published from 2020 to 2026, selecting 181 of 452 records from four sources, reported with a Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 flow diagram. It defines six reconstruction settings with one forward model and classifies every study by setting and by whether its degraded input is simulated or acquired. Beyond a taxonomy of classical interpolation and seven deep learning families, it examines public datasets and their populations, reported image quality, validation through downstream tasks, clinical readers, anatomical measurements and uncertainty, and computational cost. The analysis shows that through-plane settings receive less attention than in-plane ones and most evidence rests on simulated degradation and image-quality scores. The review closes with a reporting checklist and research directions, including the role of agentic artificial intelligence, to move these methods toward clinical confidence.</p>
+    <p>Magnetic resonance imaging (MRI) depicts soft tissue with high contrast and without ionizing radiation, but its spatial resolution, signal-to-noise ratio and scan time are coupled. Clinical protocols therefore shorten scans by undersampling or by acquiring thick, widely spaced slices, which leaves volumes degraded and anisotropic. Image-domain reconstruction and super-resolution estimate the missing information after a shorter acquisition, and since 2020 this estimate has mostly been learned from data. This critical review examines these methods through the lens of artificial intelligence (AI). It reads each study as a learning problem: what the model learns from, which inductive bias it brings, what it optimizes, how it is evaluated, whether it generalizes, how far it can be trusted and what it costs. The review analyses 183 studies published from 2020 to 2026, selected from 456 records and reported with a Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 flow diagram. One forward model defines six reconstruction settings, and every study is classified by setting and by whether its degraded input is simulated or acquired. It then examines the public datasets and their populations, classical interpolation and seven deep learning families, reported image quality, validation through downstream tasks, clinical readers, anatomical measurements and uncertainty, and computational cost. Through-plane settings receive less attention than in-plane ones, and most evidence rests on simulated degradation and image-quality scores. The review closes with a reporting checklist and research directions, including the role of agentic AI, to move these methods toward clinical confidence.</p>
   </div>
   <div class="actions">
-    <a class="btn primary" href="#matrix">Explore the 181 studies</a>
+    <a class="btn primary" href="#matrix">Explore the 183 studies</a>
     <a class="btn" href="data/research_matrix.csv" download>Download the matrix</a>
     <a class="btn" href="https://github.com/AleenaLifiya/mri_reconstruction_review">GitHub</a>
     <a class="btn" href="#cite">Cite</a>
   </div>
   <dl class="stats">
-    <div><dd>181</dd><dt>studies reviewed</dt></div>
+    <div><dd>183</dd><dt>studies reviewed</dt></div>
     <div><dd>40</dd><dt>public datasets</dt></div>
-    <div><dd>32</dd><dt>address a through-plane setting</dt></div>
-    <div><dd>29</dd><dt>test a real degraded input</dt></div>
-    <div><dd>56</dd><dt>release code</dt></div>
+    <div><dd>34</dd><dt>address a through-plane setting</dt></div>
+    <div><dd>31</dd><dt>test a real degraded input</dt></div>
+    <div><dd>58</dd><dt>release code</dt></div>
   </dl>
 </section>
 
@@ -60,7 +60,7 @@
   <figure>
     <picture>
       <source media="(max-width: 760px)" srcset="assets/graphical_abstract_phone.svg">
-      <img src="assets/graphical_abstract.svg" width="1338" height="542" alt="Graphical abstract in four panels. Short scans lose slices, so a model estimates the slices that were never acquired. The review covers 181 studies from 452 records, six reconstruction settings, 40 datasets and seven deep learning families. 92 studies address in-plane super-resolution, 47 accelerated acquisition and 32 through-plane settings. 56 release code, 29 test a real degraded input and 29 report cost. 10 evaluate a downstream task, 7 uncertainty, 5 an anatomical measure and 3 include a reader study. The field needs shared real benchmarks, clinically grounded evaluation, calibrated confidence and complete reporting.">
+      <img src="assets/graphical_abstract.svg" width="1338" height="542" alt="Graphical abstract in four panels. Short scans lose slices, so a model estimates the slices that were never acquired. The review covers 183 studies from 456 records, six reconstruction settings, 40 datasets and seven deep learning families. 92 studies address in-plane super-resolution, 47 accelerated acquisition and 34 through-plane settings. 58 release code, 31 test a real degraded input and 30 report cost. 11 evaluate a downstream task, 7 uncertainty, 7 an anatomical measure and 3 include a reader study. The field needs shared real benchmarks, clinically grounded evaluation, calibrated confidence and complete reporting.">
     </picture>
     <figcaption><a href="assets/graphical_abstract.svg" download>Download the graphical abstract (SVG)</a></figcaption>
   </figure>
@@ -91,10 +91,10 @@
 <section id="introduction">
   <h2><span>1</span>Introduction</h2>
   <p>MRI depicts soft tissue with high contrast and without ionizing radiation, but spatial resolution, signal-to-noise ratio and scan time are coupled, and longer scans are more exposed to patient motion. Clinical protocols therefore shorten scans by undersampling or by acquiring thick, widely spaced slices. Image-domain reconstruction and super-resolution estimate the missing information after the shorter acquisition.</p>
-  <p class="key"><strong>Main finding.</strong> Through-plane settings match the thick or widely spaced slices of clinical protocols, yet 32 of the 181 works address them, against 92 for in-plane super-resolution. Most of the evidence rests on simulated degradation and image-quality scores.</p>
+  <p class="key"><strong>Main finding.</strong> Through-plane settings match the thick or widely spaced slices of clinical protocols, yet 34 of the 183 works address them, against 92 for in-plane super-resolution. Most of the evidence rests on simulated degradation and image-quality scores.</p>
   <h3>What the review contributes</h3>
   <ul class="points">
-    <li>A systematic corpus of 181 works, classified by setting, source of the degraded input and supervision.</li>
+    <li>A corpus of 183 works, appraised as machine learning studies and classified by setting, source of the degraded input and supervision.</li>
     <li>An inventory of 40 datasets and a taxonomy of classical interpolation and seven deep learning families.</li>
     <li>An analysis of reported results: which scores can be compared and how methods behave across datasets and organs.</li>
     <li>A synthesis of validation through downstream tasks, clinical readers, anatomical measurements and uncertainty.</li>
@@ -107,12 +107,12 @@
   <p>The search covered Google Scholar, IEEE Xplore, Springer Nature Link and the ACM Digital Library, with citation searching, for works published from 2020 to 2026. The procedure is adapted from the PRISMA 2020 statement. Included works use a publicly available MRI dataset and an image-domain or hybrid image and k-space method.</p>
   <figure class="fig">
     <ol class="flow" aria-label="Selection flow">
-      <li><b>452</b><span>records identified</span><small>438 databases, 14 citation searching</small></li>
-      <li><b>400</b><span>screened</span><small>52 duplicates removed</small></li>
-      <li><b>254</b><span>full texts assessed</span><small>146 excluded at screening</small></li>
-      <li class="end"><b>181</b><span>studies included</span><small>73 excluded at full text</small></li>
+      <li><b>456</b><span>records identified</span><small>438 databases, 18 citation searching</small></li>
+      <li><b>404</b><span>screened</span><small>52 duplicates removed</small></li>
+      <li><b>258</b><span>full texts assessed</span><small>146 excluded at screening</small></li>
+      <li class="end"><b>183</b><span>studies included</span><small>75 excluded at full text</small></li>
     </ol>
-    <figcaption><b>Selection flow.</b> At full text, 28 works were out of scope, 25 used private data only, 17 were reviews, 2 could not be accessed and 1 was not in English</figcaption>
+    <figcaption><b>Selection flow.</b> At full text, 28 works were out of scope, 27 used private data only, 17 were reviews, 2 could not be accessed and 1 was not in English</figcaption>
   </figure>
 </section>
 
@@ -124,14 +124,14 @@
   <figure class="fig">
     <div id="settings-chart" class="setting-list"></div>
     <div class="legend" aria-hidden="true"><span><i class="swatch on"></i>Through-plane</span><span><i class="swatch report"></i>Other settings</span></div>
-    <figcaption><b>Works per setting.</b> A work in several settings is counted under each. 13 works do so, 7 do not state the plane or type of their setting, and 1 fits none of the six</figcaption>
+    <figcaption><b>Works per setting.</b> A work in several settings is counted under each. 14 works do so, 7 do not state the plane or type of their setting, and 1 fits none of the six</figcaption>
   </figure>
   <p>A factor <i>r</i> states how much is removed. With 12 dense positions and every fourth one acquired, <i>r</i> = 4 and 75&nbsp;% of the positions are unobserved. Equal factors in different settings can differ in difficulty, because they remove different information. The problem is ill-posed, since many dense volumes are consistent with one input, so whatever a model returns beyond the measurements is an estimate.</p>
   <h3>Where the degraded input comes from</h3>
-  <p>Most works degrade released magnitude images. 137 use simulated inputs only, 25 use simulated and real inputs, and 4 use real inputs only. Real acquisitions enter 13 of the 32 through-plane works, 12 of the 92 in-plane works and 4 of the 47 accelerated works.</p>
+  <p>Most works degrade released magnitude images. 137 use simulated inputs only, 27 use simulated and real inputs, and 4 use real inputs only. Real acquisitions enter 15 of the 34 through-plane works, 12 of the 92 in-plane works and 4 of the 47 accelerated works.</p>
   <figure class="fig">
     <div id="source-chart" class="bars"></div>
-    <figcaption><b>Source of the degraded input.</b> Number of the 181 reviewed works</figcaption>
+    <figcaption><b>Source of the degraded input.</b> Number of the 183 reviewed works</figcaption>
   </figure>
   <p>The simulated operator also varies. Among the in-plane works, 44 truncate central k-space, 19 downsample bicubically, 11 blur before downsampling, 3 learn the degradation and 22 do not state it. Two works reporting the same factor may therefore have removed different information.</p>
 </section>
@@ -149,7 +149,7 @@
 
 <section id="datasets">
   <h2><span>5</span>Datasets</h2>
-  <p>The 181 works use 40 public datasets. Five of them (IXI, fastMRI Brain, the BraTS family, fastMRI Knee and the Human Connectome Project) account for 73&nbsp;% of the 290 paper-dataset associations, and 15 datasets are used by exactly one work. Twenty-three datasets are brain datasets, used by 150 works, against 5 datasets and 39 works for the knee and 4 datasets and 8 works for the heart.</p>
+  <p>The 183 works use 40 public datasets. Five of them (IXI, fastMRI Brain, the BraTS family, fastMRI Knee and the Human Connectome Project) account for 73&nbsp;% of the 290 paper-dataset associations, and 15 datasets are used by exactly one work. Twenty-three datasets are brain datasets, used by 150 works, against 5 datasets and 39 works for the knee and 4 datasets and 8 works for the heart.</p>
   <figure class="fig">
     <div id="dataset-chart" class="bars"></div>
     <figcaption><b>Most used datasets.</b> Reviewed works per dataset. The <a href="data/datasets.csv" download>full list</a> gives all 40</figcaption>
@@ -158,7 +158,7 @@
     <li><strong>Cohort documentation.</strong> For 99 of the 290 associations, the release does not describe its cohort.</li>
     <li><strong>Health status.</strong> Of the other 191, 59&nbsp;% fall on healthy-volunteer cohorts and 39&nbsp;% on disease-defined cohorts, half of which are glioma.</li>
     <li><strong>Geography.</strong> At least 229 associations (79&nbsp;%) come from North America or Europe, and no dataset comes from Africa or South America.</li>
-    <li><strong>Supervision.</strong> 155 works use paired training, and for 81.8&nbsp;% of all works it is the only training signal. It needs a reference for every degraded input, which ties it to simulated data.</li>
+    <li><strong>Supervision.</strong> 157 works use paired training, and for 81.8&nbsp;% of all works it is the only training signal. It needs a reference for every degraded input, which ties it to simulated data.</li>
   </ul>
 </section>
 
@@ -187,16 +187,16 @@
   <h2><span>7</span>Evaluation</h2>
   <p>PSNR aggregates the error of every voxel, SSIM the agreement of local structure, and LPIPS the distance between learned features. Masked and unmasked scores can differ considerably, so a score needs its region stated.</p>
   <p>Absolute scores cannot be compared across studies, because subjects, degradation operators, normalization and metric implementations differ. The rate at which a method degrades is more informative, and it depends on the data: HocMRI loses 3.51&nbsp;dB per doubling of the factor on IXI, 1.56&nbsp;dB on M4Raw and 0.97&nbsp;dB on fastMRI.</p>
-  <p>76 works evaluate on two or more datasets. Of these, 52 stay within one organ, 48 of them in the brain, and 24 span several anatomies. Within a study, PSNR is higher for the brain than the knee in 14 of 17 usable pairs, and SSIM in all 16 that report it.</p>
+  <p>77 works evaluate on two or more datasets. Of these, 52 stay within one organ, 48 of them in the brain, and 24 span several anatomies. Within a study, PSNR is higher for the brain than the knee in 14 of 17 usable pairs, and SSIM in all 16 that report it.</p>
 </section>
 
 <section id="validation">
   <h2><span>8</span>Validation</h2>
   <p>Agreement with a reference is necessary evidence, and it leaves three questions open: whether a small lesion or boundary is preserved, whether a clinical or quantitative decision would change, and how reliable an output is when no reference exists. The review separates four kinds of evidence.</p>
   <div class="cards">
-    <div><b>10</b><span>downstream-task studies</span><p>Test whether the structures or pathology an analysis needs survive, most often through segmentation.</p></div>
+    <div><b>11</b><span>downstream-task studies</span><p>Test whether the structures or pathology an analysis needs survive, most often through segmentation.</p></div>
     <div><b>3</b><span>reader studies</span><p>Score diagnostic quality or separate real from generated volumes. None counts missed or false findings against a reference.</p></div>
-    <div><b>5</b><span>anatomical validations</span><p>Measure error around clinical targets, or compare surfaces, volumes and other extracted measurements.</p></div>
+    <div><b>7</b><span>anatomical validations</span><p>Measure error around clinical targets, or compare surfaces, volumes and other extracted measurements.</p></div>
     <div><b>7</b><span>uncertainty studies</span><p>Estimate or use predictive uncertainty. The estimates describe different quantities and cannot be ranked on one scale.</p></div>
   </div>
 </section>
@@ -204,16 +204,16 @@
 <section id="efficiency">
   <h2><span>9</span>Computational efficiency</h2>
   <p>A shorter scan frees the scanner whatever the reconstruction time, but a slow reconstruction delays the images when they are needed at once and limits throughput across many examinations.</p>
-  <p>Only 29 works (16.0&nbsp;%) report any computational value: 20 the number of parameters, 18 an operation count, 15 a time or throughput, 2 the memory use and 1 the number of function evaluations. They use different inputs, devices and counting conventions. On the reported devices, feed-forward slice methods span tens to hundreds of milliseconds, while iterative diffusion methods take 45&nbsp;s per slice in one study and about 141&nbsp;s per 3D volume in another.</p>
+  <p>Only 30 works (16.0&nbsp;%) report any computational value: 20 the number of parameters, 18 an operation count, 15 a time or throughput, 2 the memory use and 1 the number of function evaluations. They use different inputs, devices and counting conventions. On the reported devices, feed-forward slice methods span tens to hundreds of milliseconds, while iterative diffusion methods take 45&nbsp;s per slice in one study and about 141&nbsp;s per 3D volume in another.</p>
 </section>
 
 <section id="discussion">
   <h2><span>10</span>Discussion</h2>
-  <p>Read together, the analyses point to limitations that the reviewed works share. The chart counts how many of the 181 works have each property that a convincing evaluation needs.</p>
+  <p>Read together, the analyses point to limitations that the reviewed works share. The chart counts how many of the 183 works have each property that a convincing evaluation needs.</p>
   <figure class="fig">
     <div id="evidence-chart" class="bars"></div>
     <div class="legend" aria-hidden="true"><span><i class="swatch on"></i>Problem and data</span><span><i class="swatch valid"></i>Validation beyond image quality</span><span><i class="swatch report"></i>Reporting</span></div>
-    <figcaption><b>The evidence base at a glance.</b> Number of the 181 reviewed works with each property. A work can have several</figcaption>
+    <figcaption><b>The evidence base at a glance.</b> Number of the 183 reviewed works with each property. A work can have several</figcaption>
   </figure>
   <h3>A score depends on its protocol</h3>
   <p>In the review's sensitivity analysis, one fixed BraTS reconstruction scored from 26.01 to 33.21&nbsp;dB and from 0.785 to 0.948 in SSIM as the region, normalization, implementation and slice averaging changed. An unstated rule for averaging slices can also reverse the ranking of two methods.</p>
@@ -304,8 +304,8 @@
   <div class="bib">
     <button type="button" class="btn" id="copy">Copy BibTeX</button>
 <pre id="bibtex">@unpublished{jeffy2026slices,
-  title  = {Putting the Slices Together: A Review on Image-Domain
-            {MRI} Reconstruction and Super-Resolution},
+  title  = {Putting the Slices Together: A Critical Review of {AI} for
+            Image-Domain {MRI} Reconstruction and Super-Resolution},
   author = {Jeffy, Aleena Lifiya and Alkhatib, Mohammed Q. and
             Tliba, Marouane and Chetouani, Aladine and Aburaed, Nour},
   year   = {2026},
