@@ -1,0 +1,457 @@
+﻿Record ID,Title,Year,Source,Query,Stage reached,Decision,Reason
+1,Universal Undersampled MRI Reconstruction,2021,Google Scholar,Q1,Identification,Duplicate,
+2,Dual-domain accelerated MRI reconstruction using transformers with learning-based undersampling,2023,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+3,End-to-End Variational Networks for Accelerated MRI Reconstruction,2020,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+4,Rethinking Deep Unrolled Model for Accelerated MRI Reconstruction,2024,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+5,ReconFormer: Accelerated MRI Reconstruction Using Recurrent Transformer,2023,Google Scholar,Q1,Identification,Duplicate,
+6,Advancing MRI reconstruction: A systematic review of deep learning and compressed sensing integration,2026,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+7,Scan-Specific Generative Neural Network for MRI Super-Resolution Reconstruction,2022,Google Scholar,Q1,Identification,Duplicate,
+8,MRI Super-Resolution with Deep Learning: A Comprehensive Survey,2025,Google Scholar,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+9,Magnetic Resonance Image Processing Transformer for General Accelerated Image Reconstruction,2025,Google Scholar,Q1,Full-text assessment,Included,
+10,HUMUS-Net: Hybrid Unrolled Multi-Scale Network Architecture for Accelerated MRI Reconstruction,2022,Google Scholar,Q1,Full-text assessment,Included,
+11,Emerging Trends in Fast MRI Using Deep-Learning Reconstruction on Undersampled k-Space Data: A Systematic Review,2023,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+12,3D-MRI super-resolution reconstruction using multi-modality based on multi-resolution CNN,2024,Google Scholar,Q1,Full-text assessment,Included,
+13,DLGAN: Undersampled MRI reconstruction using Deep Learning based Generative Adversarial Network,2024,Google Scholar,Q1,Full-text assessment,Included,
+14,Accelerated Musculoskeletal Magnetic Resonance Imaging,2024,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+15,Scan-Specific Self-Supervised Bayesian Deep Non-Linear Inversion for Undersampled MRI Reconstruction,2024,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+16,TC-KANRecon: High-Quality and Accelerated MRI Reconstruction via Adaptive KAN Mechanisms and Intelligent Feature Scaling,2025,Google Scholar,Q1,Identification,Duplicate,
+17,Fast Controllable Diffusion Models for Undersampled MRI Reconstruction,2024,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+18,Highly Undersampled MRI Reconstruction via a Single Posterior Sampling of Diffusion Models,2026,Google Scholar,Q1,Identification,Duplicate,
+19,NeRF Solves Undersampled MRI Reconstruction,2024,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+20,Deep J-Sense: Accelerated MRI Reconstruction via Unrolled Alternating Optimization,2021,Google Scholar,Q1,Identification,Duplicate,
+21,CAMP-Net: Consistency-Aware Multi-Prior Network for Accelerated MRI Reconstruction,2024,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+22,CL-MRI: Self-Supervised contrastive learning to improve the accuracy of undersampled MRI reconstruction,2025,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+23,Accelerated MRI Reconstruction With Separable and Enhanced Low-Rank Hankel Regularization,2022,Google Scholar,Q1,Identification,Duplicate,
+24,MRPD: Undersampled MRI reconstruction by prompting a large latent diffusion model,2024,Google Scholar,Q1,Full-text assessment,Included,
+25,Data augmentation for deep learning based accelerated MRI reconstruction with limited data,2021,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+26,Enhancing Brain MRI Super-Resolution Through Multi-Slice Aware Matching and Fusion,2025,Google Scholar,Q1,Full-text assessment,Included,
+27,Breaking Speed Limits with Simultaneous Ultra-Fast MRI Reconstruction and Tissue Segmentation,2020,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+28,Unsupervised Accelerated MRI Reconstruction via Ground-Truth-Free Flow Matching,2025,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+29,Subsampling Decomposition based k-Space Refinement for Accelerated MRI Reconstruction,2025,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+30,Recurrent Variational Network: A Deep Learning Inverse Problem Solver Applied to the Task of Accelerated MRI Reconstruction,2022,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+31,K-Space Transformer for Undersampled MRI Reconstruction,2022,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+32,InverseSR: 3D Brain MRI Super-Resolution Using a Latent Diffusion Model,2023,Google Scholar,Q1,Identification,Duplicate,
+33,Fast unconditional diffusion model for accelerated MRI reconstruction,2026,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+34,DuDoRNet: Learning a Dual-Domain Recurrent Network for Fast MRI Reconstruction With Deep T1 Prior,2020,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+35,Learning a Gradient Guidance for Spatially Isotropic MRI Super-Resolution Reconstruction,2020,Google Scholar,Q1,Full-text assessment,Excluded,private data only
+36,Constrained Probabilistic Mask Learning for Task-Specific Undersampled MRI Reconstruction,2024,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+37,SKM-TEA: A Dataset for Accelerated MRI Reconstruction with Dense Image Labels for Quantitative Clinical Evaluation,2022,Google Scholar,Q1,Full-text assessment,Included,
+38,Benchmarking Self-Supervised Learning Methods for Accelerated MRI Reconstruction,2025,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+39,MRI super-resolution using similarity distance and multi-scale receptive field based feature fusion GAN and pre-trained slice interpolation network,2024,Google Scholar,Q1,Full-text assessment,Included,
+40,Deep maximum a posterior estimator for accelerated MRI reconstruction,2025,Google Scholar,Q1,Full-text assessment,Included,
+41,VORTEX: Physics-Driven Data Augmentations Using Consistency Training for Robust Accelerated MRI Reconstruction,2022,Google Scholar,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+42,Digging Deeper in Gradient for Unrolling-Based Accelerated MRI Reconstruction,2025,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+43,TransMRSR: transformer-based self-distilled generative prior for brain MRI super-resolution,2023,Google Scholar,Q1,Identification,Duplicate,
+44,Brain MRI Image Super-Resolution Reconstruction: A Systematic Review,2024,Google Scholar,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+45,Self-supervised learning for MRI reconstruction through mapping resampled k-space data to resampled k-space data,2024,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+46,Multiscale Fusion for Spatially Decoupled Multimodal MRI Super-Resolution Reconstruction,2025,Google Scholar,Q1,Identification,Duplicate,
+47,MRI Super-Resolution Through Generative Degradation Learning,2021,Google Scholar,Q1,Identification,Duplicate,
+48,MRI Super-Resolution With Partial Diffusion Models,2024,Google Scholar,Q1,Identification,Duplicate,
+49,IR-FRestormer: Iterative Refinement With Fourier-Based Restormer for Accelerated MRI Reconstruction,2024,Google Scholar,Q1,Identification,Duplicate,
+50,A unified deep network for thin- and dense-slice reconstruction: Improving through-plane resolution in clinical MRI,2024,Google Scholar,Q1,Identification,Duplicate,
+51,A Systematic Review and Identification of the Challenges of Deep Learning Techniques for Undersampled Magnetic Resonance Image Reconstruction,2024,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+52,AI-Based Reconstruction for Fast MRI—A Systematic Review and Meta-Analysis,2022,Google Scholar,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+53,Self-supervised learning for MRI reconstruction: a review and new perspective,2025,Google Scholar,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+54,Medical image super-resolution reconstruction algorithms based on deep learning: A survey,2023,Google Scholar,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+55,A review on deep learning MRI reconstruction without fully sampled k-space,2021,Google Scholar,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+56,A review of deep learning-based reconstruction methods for accelerated MRI using spatiotemporal and multi-contrast redundancies,2024,Google Scholar,Q1,Identification,Duplicate,
+57,A Tutorial on MRI Reconstruction: From Modern Methods to Clinical Implications,2025,Google Scholar,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+58,Dual-domain accelerated MRI reconstruction using transformers with learning-based undersampling,2023,Google Scholar,Q1,Identification,Duplicate,
+59,A review and experimental evaluation of deep learning methods for MRI reconstruction,2022,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+60,Deep learning-based magnetic resonance image super-resolution: a survey,2022,Google Scholar,Q1,Identification,Duplicate,
+61,"Generative Adversarial Networks (GAN) Powered Fast Magnetic Resonance Imaging -- Mini Review, Comparison and Perspectives",2021,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+62,"Deep Learning for Enhancing High-resolution BOLD-fMRI: A Narrative Review of Super-resolution, Segmentation, and Registration Methods",2025,Google Scholar,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+63,A Review of Optimization-Based Deep Learning Models for MRI Reconstruction,2025,Google Scholar,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+64,Primer and Historical Review on Rapid Cardiac CINE MRI,2020,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+65,MRI at low field: A review of software solutions for improving SNR,2024,Google Scholar,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+66,Deep Learning-Based Reconstruction for Cardiac MRI: A Review,2023,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+67,Super-Resolution Reconstruction Approach for MRI Images Based on Transformer Network,2025,Google Scholar,Q1,Full-text assessment,Included,
+68,MRI Super-Resolution Analysis via MRISR: Deep Learning for Low-Field Imaging,2024,Google Scholar,Q1,Full-text assessment,Included,
+69,3D MRI Reconstruction Based on 2D Generative Adversarial Network Super-Resolution,2021,Google Scholar,Q1,Full-text assessment,Included,
+70,"A Review on Accelerated Magnetic Resonance Imaging Techniques: Parallel Imaging, Compressed Sensing, and Machine Learning",2025,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+71,Autoencoder-Inspired Convolutional Network-Based Super-Resolution Method in MRI,2021,Google Scholar,Q1,Identification,Duplicate,
+72,MRI super-resolution reconstruction based on 3D dense connected convolutional autoencoders,2025,Google Scholar,Q1,Full-text assessment,Included,
+73,SAS-MRI: A semantic-guided approach for arbitrary scale super-resolution in multi-contrast brain MRI,2025,Google Scholar,Q1,Full-text assessment,Included,
+74,Deep-learning methods for MRI super-resolution,2022,Google Scholar,Q1,Title and abstract screening,Excluded,thesis
+75,Self-supervised adversarial diffusion models for fast MRI reconstruction,2025,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+76,Deep Learning Approaches for Accelerated MRI Reconstruction,2023,Google Scholar,Q1,Title and abstract screening,Excluded,thesis
+77,DL-MRI: A Unified Framework of Deep Learning-Based MRI Super Resolution,2021,Google Scholar,Q1,Full-text assessment,Included,
+78,Enhance the Image: Super Resolution using Artificial Intelligence in MRI,2024,Google Scholar,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+79,Self-supervised Deep Unrolled Model with Implicit Neural Representation Regularization for Accelerating MRI Reconstruction,2025,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+80,Fast MRI reconstruction: A thorough survey from single-modal to multi-modal,2025,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+81,Deep learning in medical image super resolution: a review,2023,Google Scholar,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+82,DisC-Diff: Disentangled Conditional Diffusion Model for Multi-contrast MRI Super-Resolution,2023,Google Scholar,Q1,Identification,Duplicate,
+83,Which GAN? A comparative study of generative adversarial network-based fast MRI reconstruction,2021,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+84,DBGAN: A dual-branch generative adversarial network for undersampled MRI reconstruction,2022,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+85,Dual-domain self-supervised learning for accelerated non-Cartesian MRI reconstruction,2022,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+86,NPB-REC: A non-parametric Bayesian deep-learning approach for undersampled MRI reconstruction with uncertainty estimation,2024,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+87,Task Transformer Network for Joint MRI Reconstruction and Super-Resolution,2021,Google Scholar,Q1,Full-text assessment,Included,
+88,RNLFNet: Residual non-local Fourier network for undersampled MRI reconstruction,2023,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+89,"Faster, Self-supervised Super-Resolution for Anisotropic Multi-view MRI Using a Sparse Coordinate Loss",2025,Google Scholar,Q1,Identification,Duplicate,
+90,Deform-Mamba Network for MRI Super-Resolution,2024,Google Scholar,Q1,Identification,Duplicate,
+91,SuperFormer: Volumetric Transformer Architectures for MRI Super-Resolution,2022,Google Scholar,Q1,Identification,Duplicate,
+92,Effective deep-learning brain MRI super resolution using simulated training data,2024,Google Scholar,Q1,Full-text assessment,Included,
+93,MRI Super-Resolution With Ensemble Learning and Complementary Priors,2020,Google Scholar,Q1,Identification,Duplicate,
+94,Deep Cardiac MRI Reconstruction with ADMM,2024,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+95,High-Frequency Modulated Transformer for Multi-Contrast MRI Super-Resolution,2025,Google Scholar,Q1,Identification,Duplicate,
+96,Perceptual cGAN for MRI Super-resolution,2022,Google Scholar,Q1,Identification,Duplicate,
+97,Model-Guided Multi-Contrast Deep Unfolding Network for MRI Super-resolution Reconstruction,2022,Google Scholar,Q1,Identification,Duplicate,
+98,Self-supervised MRI Reconstruction with Unrolled Diffusion Models,2023,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+99,Brain MRI super-resolution using coupled-projection residual network,2021,Google Scholar,Q1,Full-text assessment,Included,
+100,A novel hybrid generative adversarial network for CT and MRI super-resolution reconstruction,2023,Google Scholar,Q1,Full-text assessment,Excluded,private data only
+101,Rethinking Diffusion Model for Multi-Contrast MRI Super-Resolution,2024,Google Scholar,Q1,Identification,Duplicate,
+102,Self-supervised domain adaptation with hypernetworks for compressive sensing MRI reconstruction,2026,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+103,Dynamic Hybrid Unrolled Multi-scale Network for Accelerated MRI Reconstruction,2024,Google Scholar,Q1,Identification,Duplicate,
+104,Center-to-Edge Denoising Diffusion Probabilistic Models with Cross-domain Attention for Undersampled MRI Reconstruction,2024,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+105,Multi-scale deformable transformer for multi-contrast knee MRI super-resolution,2023,Google Scholar,Q1,Full-text assessment,Included,
+106,Multi-contrast MRI Super-Resolution via a Multi-stage Integration Network,2021,Google Scholar,Q1,Identification,Duplicate,
+107,STADNet: Spatial-Temporal Attention-Guided Dual-Path Network for cardiac cine MRI super-resolution,2024,Google Scholar,Q1,Full-text assessment,Included,
+108,On retrospective k-space subsampling schemes for deep MRI reconstruction,2024,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+109,"MRI Super-Resolution with GAN and 3D Multi-Level DenseNet: Smaller, Faster, and Better",2020,Google Scholar,Q1,Full-text assessment,Included,
+110,CDF-Net: Cross-Domain Fusion Network for Accelerated MRI Reconstruction,2020,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+111,DISGAN: Wavelet-Informed Discriminator Guides GAN to MRI Super-Resolution with Noise Cleaning,2023,Google Scholar,Q1,Identification,Duplicate,
+112,MLMFNet: A multi-level modality fusion network for multi-modal accelerated MRI reconstruction,2024,Google Scholar,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+113,Fast Controllable Diffusion Models for Undersampled MRI Reconstruction,2024,IEEE Xplore,Q1,Identification,Duplicate,
+114,Rethinking Dual-Domain Undersampled MRI Reconstruction: Domain-Specific Design from the Perspective of the Receptive Field,2024,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+115,Graph-Channel Attention U-Net for Undersampled MRI Reconstruction,2024,IEEE Xplore,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+116,Multi-Scale Contextual Transformer for MRI Super-Resolution,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+117,Brain MRI Super-Resolution Using 3D Dilated Convolutional Encoder–Decoder Network,2020,IEEE Xplore,Q1,Full-text assessment,Included,
+118,Brain MRI Scans Super-Resolution With Wavelet and Attention Mechanisms,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+119,Navier-Stokes-Based Regularization for 4d Flow MRI Super-Resolution,2022,IEEE Xplore,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+120,Residual Attention Mechanism-Based MRI Super-Resolution,2024,IEEE Xplore,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+121,Subdivision Features-Guided Brain MRI Super-Resolution via Forward and Backward Propagation,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+122,Digging Deeper in Gradient for Unrolling-Based Accelerated MRI Reconstruction,2025,IEEE Xplore,Q1,Identification,Duplicate,
+123,"Enhancing Brain MRI Super-Resolution: A Comparative Study of DCNN, GAN, and Vision Transformer Models",2025,IEEE Xplore,Q1,Full-text assessment,Included,
+124,Enhancing Undersampled MRI Reconstruction Performance Via Denoising Diffusion Models,2024,IEEE Xplore,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+125,Joint Cross-Attention Network With Deep Modality Prior for Fast MRI Reconstruction,2024,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+126,Undersampled MRI Reconstruction Using Switchable Interdependent Self-Cooperative Learning Without Paired Training Data,2023,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+127,MATNet: MRI Super-Resolution with Multiple Attention Mechanisms,2023,IEEE Xplore,Q1,Full-text assessment,Included,
+128,High-Order State Space Model for Multi-Modal Accelerated MRI Reconstruction,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+129,A Dexterous Hybrid Attention Transformer For MRI Super-resolution Of Brain Tumors,2024,IEEE Xplore,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+130,High-Fidelity Accelerated MRI Reconstruction by Scan-Specific Fine-Tuning of Physics-Based Neural Networks,2020,IEEE Xplore,Q1,Full-text assessment,Included,
+131,Radial Undersampled MRI Reconstruction Using Deep Learning With Mutual Constraints Between Real and Imaginary Components of K-Space,2024,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+132,Global-Local Degradation-Aware Network for Blind MRI Super-Resolution,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+133,Magnitude-image based data-consistent deep learning method for MRI super resolution,2022,IEEE Xplore,Q1,Full-text assessment,Included,
+134,MRI Super-Resolution With Partial Diffusion Models,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+135,LCB-SRNet: Advancing MRI Super-Resolution Using Local Context Block and Fusion-Enhanced Bottleneck,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+136,From Perception to Precision: Navigating Perceptual Loss in MRI Super-Resolution,2023,IEEE Xplore,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+137,Dual-Encoder-Unet For Fast Mri Reconstruction,2020,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+138,MAPANet: A Multi-Scale Attention-Guided Progressive Aggregation Network for Multi-Contrast MRI Super-Resolution,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+139,High-Frequency Modulated Transformer for Multi-Contrast MRI Super-Resolution,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+140,IM-Diff: Implicit Multi-Contrast Diffusion Model for Arbitrary Scale MRI Super-Resolution,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+141,Joint Under-Sampling Pattern Optimization and Content-Based Reconstruction Network for Fast MRI Reconstruction,2023,IEEE Xplore,Q1,Full-text assessment,Included,
+142,OS-DDPM: One-Step Denoising Diffusion Probabilistic Model for Anisotropic MRI Super-Resolution,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+143,Inference Stage Denoising for Undersampled MRI Reconstruction,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+144,Perceptual cGAN for MRI Super-resolution,2022,IEEE Xplore,Q1,Full-text assessment,Included,
+145,Adaptive Gradient Balancing for Undersampled MRI Reconstruction and Image-to-Image Translation,2021,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+146,Prostate MRI Super-Resolution using Discrete Residual Diffusion Model,2023,IEEE Xplore,Q1,Full-text assessment,Included,
+147,MRI Super-Resolution via Hybrid Information Enhancement Network based on Multi-Attention and Adaptive Convolution,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+148,A Plug-and-Play Deep Denoiser Prior Model for Accelerated MRI Reconstruction,2022,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+149,INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D Accelerated MRI Reconstruction,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+150,Cycle-Consistent Self-Supervised Learning for Improved Highly-Accelerated MRI Reconstruction,2024,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+151,Super-Resolution Diffusion Model for Accelerated MRI Reconstruction,2023,IEEE Xplore,Q1,Full-text assessment,Included,
+152,Frequency-Based Soft Diffusion Model for Accelerated MRI Reconstruction,2025,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+153,Scan-Specific Accelerated Mri Reconstruction Using Recurrent Neural Networks In A Regularized Self-Consistent Framework,2020,IEEE Xplore,Q1,Full-text assessment,Included,
+154,DPCAT: A Novel Diffusion Probabilistic and Cross-Attention Based Transformer for Multi-Contrast MRI Super-Resolution,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+155,LDPM: Towards undersampled MRI reconstruction with MR-VAE and Latent Diffusion Prior,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+156,MRI Super-Resolution With Ensemble Learning and Complementary Priors,2020,IEEE Xplore,Q1,Full-text assessment,Included,
+157,DeepVolume: Brain Structure and Spatial Connection-Aware Network for Brain MRI Super-Resolution,2021,IEEE Xplore,Q1,Full-text assessment,Excluded,private data only
+158,Multicontrast MRI Super-Resolution via Transformer-Empowered Multiscale Contextual Matching and Aggregation,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+159,Robust Deep Convolutional Dictionary Model With Alignment Assistance for Multi-Contrast MRI Super-Resolution,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+160,A Lightweight 3D Distillation Volumetric Transformer for 3D MRI Super-Resolution,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+161,DDFormer: Dual-domain and Dual-aggregation Transformer for Multi-contrast MRI Super-Resolution,2023,IEEE Xplore,Q1,Full-text assessment,Included,
+162,Unfolding High-Order Correlations for Interpretable Multi-Contrast MRI Super-Resolution,2026,IEEE Xplore,Q1,Full-text assessment,Included,
+163,Improving High-Frequency Details in Cerebellum for Brain MRI Super-Resolution,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+164,Multi-Contrast MRI Super-Resolution in Brain Tumors: Arbitrary-Scale Implicit Sampling and Unsupervised Fine-Tuning,2026,IEEE Xplore,Q1,Full-text assessment,Included,
+165,A Lightweight Multi-Stage Fusion Network for Multi-Contrast MRI Super-Resolution,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+166,DDASR: Domain-Distance Adapted Super-Resolution Reconstruction of MR Brain Images,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+167,Recurrent Variational Network: A Deep Learning Inverse Problem Solver applied to the task of Accelerated MRI Reconstruction,2022,IEEE Xplore,Q1,Identification,Duplicate,
+168,Fast MRI Reconstruction: How Powerful Transformers Are?,2022,IEEE Xplore,Q1,Full-text assessment,Included,
+169,Frequency Filtering Network for Undersampled MRI Reconstruction,2023,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+170,MRI Super-Resolution using Generative Adversarial Network and Discrete Wavelet Transform,2022,IEEE Xplore,Q1,Full-text assessment,Excluded,private data only
+171,MRI Super-Resolution using Laplacian Pyramid Convolutional Neural Networks with Isotropic Undecimated Wavelet Loss,2020,IEEE Xplore,Q1,Full-text assessment,Included,
+172,MRI super-resolution using 3D cycle-consistent generative adversarial network,2021,IEEE Xplore,Q1,Full-text assessment,Included,
+173,Unpaired MRI Super Resolution with Contrastive Learning,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+174,Deep Learning-based MRI Super-Resolution Using Non-uniform Segmented Phase-Scrambling Fourier Transform Signals,2023,IEEE Xplore,Q1,Full-text assessment,Included,
+175,Progressively Stacked Serial Encoder Decoder For MRI Super Resolution,2024,IEEE Xplore,Q1,Full-text assessment,Excluded,private data only
+176,Recur MRI Super-Resolution Based on Phaseless Encoding and Theoretical Correct of Magnetic Field Inhomogeneity,2023,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+177,CAMP-Net: Consistency-Aware Multi-Prior Network for Accelerated MRI Reconstruction,2025,IEEE Xplore,Q1,Identification,Duplicate,
+178,Direct Conditional Score Modeling for Accelerated MRI Reconstruction,2024,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+179,Fast MRI Reconstruction via Boosting Filter Diversity of Deep Cascading Networks,2023,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+180,IR-FRestormer: Iterative Refinement with Fourier-Based Restormer for Accelerated MRI Reconstruction,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+181,Subsampling Decomposition based k-Space Refinement for Accelerated MRI Reconstruction,2025,IEEE Xplore,Q1,Identification,Duplicate,
+182,Domain Generalization in Fetal Brain MRI Segmentation with Multi-Reconstruction Augmentation,2023,IEEE Xplore,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+183,Rethinking Multi-Contrast MRI Super-Resolution: Rectangle-Window Cross-Attention Transformer and Arbitrary-Scale Upsampling',2023,IEEE Xplore,Q1,Full-text assessment,Included,
+184,DISGAN: Wavelet-informed Discriminator Guides GAN to MRI Super-resolution with Noise Cleaning,2023,IEEE Xplore,Q1,Full-text assessment,Included,
+185,Wavelet-aware Transformer Network for Multi-contrast Knee MRI Super-resolution,2023,IEEE Xplore,Q1,Full-text assessment,Included,
+186,DuDoRNet: Learning a Dual-Domain Recurrent Network for Fast MRI Reconstruction With Deep T1 Prior,2020,IEEE Xplore,Q1,Identification,Duplicate,
+187,DDC-Net: Dual-Domain Cascaded Network With POCS Prior for Fast MRI Reconstruction,2024,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+188,Dynamic HUMUS-Net for Fast MRI Reconstruction,2024,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+189,STAND-Net: Lightning-Fast MRI Reconstruction via Stage-Aware Deep Unrolling With Neural Tensor Decomposition,2025,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+190,Scan-Specific Self-Supervised Bayesian Deep Non-Linear Inversion for Undersampled MRI Reconstruction,2024,IEEE Xplore,Q1,Identification,Duplicate,
+191,Constrained Probabilistic Mask Learning for Task-specific Undersampled MRI Reconstruction,2024,IEEE Xplore,Q1,Identification,Duplicate,
+192,Seeking Common Ground While Reserving Differences: Multiple Anatomy Collaborative Framework for Undersampled MRI Reconstruction,2026,IEEE Xplore,Q1,Full-text assessment,Included,
+193,Highly Undersampled MRI Reconstruction via a Single Posterior Sampling of Diffusion Models,2026,IEEE Xplore,Q1,Full-text assessment,Included,
+194,ReconFormer: Accelerated MRI Reconstruction Using Recurrent Transformer,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+195,Accelerated MRI Reconstruction With Separable and Enhanced Low-Rank Hankel Regularization,2022,IEEE Xplore,Q1,Full-text assessment,Excluded,private data only
+196,TC-KANRecon: High-Quality and Accelerated MRI Reconstruction via Adaptive KAN Mechanisms and Intelligent Feature Scaling,2026,IEEE Xplore,Q1,Full-text assessment,Included,
+197,Joint Edge Optimization Deep Unfolding Network for Accelerated MRI Reconstruction,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+198,V-DDPM: MRI Rician Noise Removal Model Based on VST and DDPM,2024,IEEE Xplore,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+199,Encoder-Decoder Refined Recurrent Transformer Network for Accelerated MRI Reconstruction,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+200,Learning Preconditioners in Gates-controlled Deep Unfolding Networks based on Quasi-Newton Methods For Accelerated MRI Reconstruction,2025,IEEE Xplore,Q1,Full-text assessment,Excluded,private data only
+201,IRC-SC: Improving Robustness of CNN-Based MRI System Using SRGAN and CNN,2025,IEEE Xplore,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+202,Accelerated MRI Reconstruction: Evaluating Physics-Informed Sampling Against Learning-Based Methods,2025,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+203,A Lightweight Mamba Enhanced U-Net for Accelerated MRI Reconstruction,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+204,Rethinking Diffusion Model for Multi-Contrast MRI Super-Resolution,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+205,Decomposition-Based Variational Network for Multi-Contrast MRI Super-Resolution and Reconstruction,2023,IEEE Xplore,Q1,Full-text assessment,Included,
+206,Multi-Contrast MRI Arbitrary-Scale Super-Resolution via Dynamic Implicit Network,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+207,Accelerated MRI With Un-Trained Neural Networks,2025,IEEE Xplore,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+208,Multi-Contrast Super-Resolution MRI Through a Progressive Network,2020,IEEE Xplore,Q1,Full-text assessment,Included,
+209,MS-Glance: Bio-Inspired Non-Semantic Context Vectors and Their Applications in Supervising Image Reconstruction,2025,IEEE Xplore,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+210,Transformer-empowered Multi-scale Contextual Matching and Aggregation for Multi-contrast MRI Super-resolution,2022,IEEE Xplore,Q1,Full-text assessment,Included,
+211,Enhanced generative adversarial network for 3D brain MRI super-resolution,2020,IEEE Xplore,Q1,Full-text assessment,Excluded,private data only
+212,Scan-Specific Generative Neural Network for MRI Super-Resolution Reconstruction,2022,IEEE Xplore,Q1,Full-text assessment,Included,
+213,Unsupervised MRI Super Resolution Using Deep External Learning and Guided Residual Dense Network With Multimodal Image Priors,2022,IEEE Xplore,Q1,Full-text assessment,Included,
+214,SMIR: A Transformer-Based Model for MRI super-resolution reconstruction,2021,IEEE Xplore,Q1,Full-text assessment,Included,
+215,DBSR: Quadratic Conditional Diffusion Model for Blind Cardiac MRI Super-Resolution,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+216,Deep Residual Fourier and Self-Attention for Arbitrary Scale MRI Super-Resolution,2023,IEEE Xplore,Q1,Full-text assessment,Included,
+217,ABSR: Progressive Alternate Refinement for Blind Cardiac MRI Super-Resolution,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+218,Mamba-Enhanced Large-Window Transformer for Multi-Contrast Brain MRI Super-Resolution,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+219,Advancing MRI Super-Resolution with Generative Adversarial Networks,2025,IEEE Xplore,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+220,Multiscale Fusion for Spatially Decoupled Multimodal MRI Super-Resolution Reconstruction,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+221,Anisotropic 3D MRI Super-Resolution via Cross-Slice Collaborative Attention Propagation Network,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+222,A Transform-Domain Approach with Symmetric and Edge Constraints for MRI Super-Resolution,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+223,A Transparent and Lightweight Tumor-Aware MRI Super-Resolution Framework to Enhance Prostate Cancer Detection,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+224,Displacement-Guided Anisotropic 3D-MRI Super-Resolution With Warp Mechanism,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+225,CRFormer: Towards Accurate Multi-Contrast MRI Super-Resolution with Composited and Reconciled Transformer,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+226,Swin Transformer Applied to Breast MRI Super-Resolution in a Cross-Cohort Dataset,2025,IEEE Xplore,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+227,Synthetic Magnetic Resonance Images for Domain Adaptation: Application to Fetal Brain Tissue Segmentation,2022,IEEE Xplore,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+228,PI-GNN: Physics-Informed Graph Neural Network for Super-Resolution of 4D Flow MRI,2024,IEEE Xplore,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+229,Segmentation-Free Super-Resolved 4D flow MRI Reconstruction Exploiting Navier-Stokes Equations and Spatial Regularization,2022,IEEE Xplore,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+230,Super-Resolution Magnetic Resonance Imaging using Segmented Signals in Phase-Scrambling Fourier Transform Imaging and Deep Learning,2022,IEEE Xplore,Q1,Full-text assessment,Included,
+231,A Novel Framework for Enhancement of Diagnostic Information in MRI using Deep Super-Resolution,2020,IEEE Xplore,Q1,Full-text assessment,Included,
+232,On Training Model Bias of Deep Learning based Super-resolution Frameworks for Magnetic Resonance Imaging,2023,IEEE Xplore,Q1,Full-text assessment,Excluded,private data only
+233,Enhancement of Diagnostic Information in T1-weighted Contrast Enhanced MRI using Deep Back-Projection based Super-Resolution,2022,IEEE Xplore,Q1,Full-text assessment,Included,
+234,Investigating the Feasibility of Patch-Based Inference for Generalized Diffusion Priors in Inverse Problems for Medical Images,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+235,Enhancing Diffusion-Weighted Images (DWI) for Diffusion MRI: Is it Enough without Non-Diffusion-Weighted B=0 Reference?,2025,IEEE Xplore,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+236,A Cross Domain Generative Network for Accelerated MRI,2024,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+237,Research on Super-Resolution Reconstruction Algorithm Based on SwinIR for Brain MRI Images,2026,IEEE Xplore,Q1,Full-text assessment,Included,
+238,Unsupervised Super-Resolution of Diffusion-Weighted Images via Deep Diffusion Prior,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+239,Autoencoder-Inspired Convolutional Network-Based Super-Resolution Method in MRI,2021,IEEE Xplore,Q1,Full-text assessment,Excluded,private data only
+240,Super-Resolution in Sparse Representation Fusion for Medical Images,2023,IEEE Xplore,Q1,Full-text assessment,Excluded,private data only
+241,Semantic-Aware Super-Resolution for Brain MRI,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+242,Unsupervised MRI Reconstruction via a Parallel Unrolled Framework with Cross-Domain Interaction,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+243,Enhanced Partial Fourier MRI With Zero-Shot Deep Untrained Priors,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+244,Progressive Sub-Band Residual-Learning Network for MR Image Super Resolution,2020,IEEE Xplore,Q1,Full-text assessment,Included,
+245,Bridging MRI Cross-Modality Synthesis and Multi-Contrast Super-Resolution by Fine-Grained Difference Learning,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+246,Self-Supervised Arbitrary Scale Super-Resolution Framework for Anisotropic MRI,2023,IEEE Xplore,Q1,Full-text assessment,Included,
+247,Multi-contrast High Quality MR Image Super-Resolution with Dual Domain Knowledge Fusion,2022,IEEE Xplore,Q1,Full-text assessment,Included,
+248,Enhancing the resolution of Brain MRI images using Generative Adversarial Networks (GANs),2023,IEEE Xplore,Q1,Full-text assessment,Excluded,private data only
+249,DDoS-UNet: Incorporating Temporal Information Using Dynamic Dual-Channel UNet for Enhancing Super-Resolution of Dynamic MRI,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+250,Segmentation-Free Velocity Field Super-Resolution on 4D Flow MRI,2024,IEEE Xplore,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+251,Multi-Scale Style Aggregation Transformer-Based Network (MSAT-Net) for Multi-Contrast MRI Restoration: Super Resolution and Motion Artifact Reduction,2023,IEEE Xplore,Q1,Full-text assessment,Included,
+252,An Arbitrary-Scale Super-Resolution Network for Multi-Contrast MRI With Permuted Cross-Attention,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+253,AttentionGAN Based Super-Resolution for Enhanced Diagnostic Accuracy in Magnetic Resonance Imaging,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+254,An Integrated Automatic Framework for Super-Resolution Reconstruction of Motion-Corrupted Fetal Brain MRI With Prior Anatomical Knowledge,2026,IEEE Xplore,Q1,Full-text assessment,Excluded,private data only
+255,Dense U-Nets for Enhancement of Undersampled MRI Using Cross-Contrast Feature Transfer,2023,IEEE Xplore,Q1,Full-text assessment,Included,
+256,Joint Super-Resolution and Segmentation for Low-Resolution Brain MRI Analysis,2025,IEEE Xplore,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+257,Self-supervised Multimodal Transformer for Accurate Low-dose CT Liver Tumor Segmentation with Cross-domain Adaptation,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+258,Deep Group-Wise Angular Translation of Cardiac Diffusion MRI in q-space via Manifold Regularized GAN,2020,IEEE Xplore,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+259,3T to 7T-like MRI Translation Using Attention-Guided Multi-Scale CycleGAN,2025,IEEE Xplore,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+260,Super-resolution Reconstruction of Fetal Brain MRI with Multi-view Interpolation Weight Learning,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+261,Spinal Magnetic Resonance Imaging Super-Resolution Based on Improved Latent Diffusion Models,2025,IEEE Xplore,Q1,Full-text assessment,Excluded,private data only
+262,Flexible Alignment Super-Resolution Network for Multi-Contrast Magnetic Resonance Imaging,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+263,Bayesian Uncertainty Estimation of Learned Variational MRI Reconstruction,2021,IEEE Xplore,Q1,Full-text assessment,Included,
+264,Multi-Image Super Resolution in Multi-Contrast MRI,2020,IEEE Xplore,Q1,Full-text assessment,Excluded,not written in English
+265,DH-Mamba: Exploring Dual-Domain Hierarchical State Space Models for MRI Reconstruction,2026,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+266,A survey of image super-resolution algorithms based on convolutional neural networks for smart city health care applications,2022,IEEE Xplore,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+267,Reference-Based Texture Transfer For Single Image Super-Resolution Of Magnetic Resonance Images,2021,IEEE Xplore,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+268,T2T-Bridge: Direct Diffusion Bridge Model for Thick-to-Thin Slice Infant MRI Reconstruction,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+269,Fast Sampling of Diffusion Models for Accelerated MRI Using Dual Manifold Constraints,2025,IEEE Xplore,Q1,Full-text assessment,Included,
+270,"Undersampled Magnetic Resonance Image Reconstructions Based on a Combination of U-Nets and L1, L2, and TV Optimizations",2022,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+271,MAFDE-Net: Multipath Attention-Fusion-Based Dual-Encoder Network for Undersampled MRI Segmentation,2025,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+272,Self-Supervised Physics-Based Deep Learning MRI Reconstruction Without Fully-Sampled Data,2020,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+273,Automated Tuning for Diffusion Inverse Problem Solvers without Generative Prior Retraining,2025,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+274,Multi-Modal Vision Transformer using Variable and Shifted Windows for MRI Reconstruction,2024,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+275,Zero-Shot Recon2Recon: Data-Free Unsupervised Denoiser Learning for Plug-and-Play Magnetic Resonance Imaging Reconstruction,2025,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+276,Multi-Modal Multi-Slice Cooperative Dual-Domain Cascaded De-Aliasing Network for MR Imaging Reconstruction,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+277,DSFormer: A Dual-domain Self-supervised Transformer for Accelerated Multi-contrast MRI Reconstruction,2023,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+278,Research on MRI Image Super-Resolution Reconstruction Algorithm Based on Information Distillation,2024,IEEE Xplore,Q1,Full-text assessment,Included,
+279,Parallel Trajectory Constraint Sampling for Solving Universal Medical Inverse Problems,2026,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+280,3D MedDiffusion: A 3D Medical Latent Diffusion Model for Controllable and High-Quality Medical Image Generation,2025,IEEE Xplore,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+281,Implicit Neural Representation-Based MRI Reconstruction Method With Sensitivity Map Constraints,2026,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+282,CRAVS-Net: Complex Residual Attention-Based Variable Splitting Network for Accelerated p-MRI,2025,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+283,Cine Cardiac MRI Motion Artifact Reduction Using a Recurrent Neural Network,2021,IEEE Xplore,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+284,Deep Transfer Learning-Based Multi-Modal Digital Twins for Enhancement and Diagnostic Analysis of Brain MRI Image,2023,IEEE Xplore,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+285,Tri-Domain Filtering Transformer for CT Metal Artifact Reduction,2025,IEEE Xplore,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+286,OUSC-Net: Optimization-Based Unfolding Network for Super-Resolution Reconstruction of CEST-MRI,2023,IEEE Xplore,Q1,Full-text assessment,Excluded,private data only
+287,Multi-Scale and Multi-Contrast Magnetic Resonance Image Super-Resolution Reconstruction,2026,IEEE Xplore,Q1,Full-text assessment,Included,
+288,A Swin Transformer-Based Cold Diffusion Model for Accelerated MRI Reconstruction,2025,ACM Digital Library,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+289,Reconstruction-Guided Multi-Stage Network For MRI Super-Resolution,2024,ACM Digital Library,Q1,Full-text assessment,Included,
+290,RCAN based MRI super-resolution with applications,2023,ACM Digital Library,Q1,Full-text assessment,Included,
+291,DC2-SR: A Dual-Consistency Guided Curriculum Learning method for Thick-Slice Fetal MRI Super-Resolution,2025,ACM Digital Library,Q1,Full-text assessment,Included,
+292,Hybrid Aggregation Transformer with Flexible Feature Fusion Module for MRI super-resolution,2024,ACM Digital Library,Q1,Full-text assessment,Included,
+293,Model-Guided Multi-Contrast Deep Unfolding Network for MRI Super-resolution Reconstruction,2022,ACM Digital Library,Q1,Full-text assessment,Included,
+294,Cross-contrast Fusion and Aggregation Network for Multi-contrast MRI Super-resolution,2023,ACM Digital Library,Q1,Full-text assessment,Included,
+295,"An Attention-Based, Dual-Domain Adaptive Convolutional Neural Network for Fast MRI Reconstruction",2024,ACM Digital Library,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+296,MRI Super-Resolution using Implicit Neural Representation with Frequency Domain Enhancement,2022,ACM Digital Library,Q1,Full-text assessment,Included,
+297,Lightweight Medical Image Restoration via Integrating Reliable Lesion-Semantic Driven Prior,2025,ACM Digital Library,Q1,Full-text assessment,Included,
+298,Deep Transfer Learning-Based Multi-Modal Digital Twins for Enhancement and Diagnostic Analysis of Brain MRI Image,2022,ACM Digital Library,Q1,Identification,Duplicate,
+299,Physics-informed Machine Learning for Medical Image Analysis,2025,ACM Digital Library,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+300,Diffusion Model with Multi-Scale and Attention Mechanisms for SPECT Image Generation,2025,ACM Digital Library,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+301,Topology-Aware Conditional Latent Diffusion for Multi-View Fundus Image Synthesis,2025,ACM Digital Library,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+302,Super-resolution algorithm of brain magnetic resonance image of Alzheimer45s disease based on 2D-VMD-MTV,2024,ACM Digital Library,Q1,Full-text assessment,Included,
+303,Guest Editorial Special Issue on Multi-Modal Biomedical Computing-Deep Transfer Learning,2023,ACM Digital Library,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+304,MRI Segmentation Methodology Utilizing Diffusion Models and Small-Sample Learning,2024,ACM Digital Library,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+305,Novel Complex AUTOMAP for Accelerated MRI,2023,ACM Digital Library,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+306,Latent-space Unfolding for MRI Reconstruction,2023,ACM Digital Library,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+307,"fVDB : A Deep-Learning Framework for Sparse, Large Scale, and High Performance Spatial Intelligence",2024,ACM Digital Library,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+308,"Adaptivity without compromise: a momentumized, adaptive, dual averaged gradient method for stochastic optimization",2022,ACM Digital Library,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+309,3D Brain and Heart Volume Generative Models: A Survey,2024,ACM Digital Library,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+310,TFPnP: tuning-free plug-and-play proximal algorithms with applications to inverse imaging problems,2022,ACM Digital Library,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+311,SAFNet: a spatial adaptive fusion network for dual-domain undersampled MRI reconstruction,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+312,Learnable Objective Image Function for Accelerated MRI Reconstruction,2024,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+313,Deep Convolutional Neural Network Enhanced Non-uniform Fast Fourier Transform for Undersampled MRI Reconstruction,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+314,HLFN: frequency fusion for MRI super-resolution,2025,Springer Nature Link,Q1,Full-text assessment,Included,
+315,Rethinking Deep Unrolled Model for Accelerated MRI Reconstruction,2024,Springer Nature Link,Q1,Identification,Duplicate,
+316,Probabilistic Prior-Guided Anatomical Alignment for MRI Super-Resolution,2026,Springer Nature Link,Q1,Full-text assessment,Included,
+317,Lung volume segmentation in fetal MRI: super-resolution reconstructions improve inter-rater reliability,2025,Springer Nature Link,Q1,Full-text assessment,Excluded,private data only
+318,Unsupervised Accelerated MRI Reconstruction via Ground-Truth-Free Flow Matching,2025,Springer Nature Link,Q1,Identification,Duplicate,
+319,FilterDiff: Noise-Free Frequency-Domain Diffusion Models for Accelerated MRI Reconstruction,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+320,Center-to-Edge Denoising Diffusion Probabilistic Models with Cross-domain Attention for Undersampled MRI Reconstruction,2024,Springer Nature Link,Q1,Identification,Duplicate,
+321,Deform-Mamba Network for MRI Super-Resolution,2024,Springer Nature Link,Q1,Full-text assessment,Included,
+322,A lightweight self-ensemble feedback recurrent network for fast MRI reconstruction,2024,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+323,Multi-contrast Enhanced Lightweight Diffusion Models for MRI Super-Resolution,2025,Springer Nature Link,Q1,Identification,Duplicate,
+324,Agent-Conditioned Multi-contrast MRI Super-Resolution for Cross-Subject,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+325,Multi-contrast Enhanced Lightweight Diffusion Models for MRI Super-Resolution,2025,Springer Nature Link,Q1,Full-text assessment,Included,
+326,Deep Learning-Based Fast MRI Reconstruction: Improving Generalization for Clinical Translation,2023,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+327,Automatic Quality Control in Multi-centric Fetal Brain MRI Super-Resolution Reconstruction,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+328,Iterative Consistent Attentional Diffusion Model for Multi-Contrast MRI Super-Resolution,2025,Springer Nature Link,Q1,Full-text assessment,Included,
+329,Clinical Brain MRI Super-Resolution with 2D Slice-Wise Diffusion Model,2025,Springer Nature Link,Q1,Full-text assessment,Included,
+330,Cascade Fusion Network with Spatial-Frequency Domain for Multi-contrast MRI Super-Resolution,2026,Springer Nature Link,Q1,Full-text assessment,Included,
+331,Accelerated MRI Reconstruction via Dynamic Deformable Alignment Based Transformer,2023,Springer Nature Link,Q1,Full-text assessment,Included,
+332,Dynamic Hybrid Unrolled Multi-scale Network for Accelerated MRI Reconstruction,2024,Springer Nature Link,Q1,Full-text assessment,Included,
+333,Multimodal Image Prior Integration for Unsupervised MRI Super-Resolution with Guided Residual Dense Networks,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+334,SGSR: Structure-Guided Multi-contrast MRI Super-Resolution via Spatio-Frequency Co-Query Attention,2025,Springer Nature Link,Q1,Full-text assessment,Included,
+335,TransMRSR: transformer-based self-distilled generative prior for brain MRI super-resolution,2023,Springer Nature Link,Q1,Full-text assessment,Included,
+336,Edge-Guided and Cross-Scale Feature Fusion Network for Efficient Multi-contrast MRI Super-Resolution,2025,Springer Nature Link,Q1,Full-text assessment,Included,
+337,Uncertainty Estimation and Propagation in Accelerated MRI Reconstruction,2023,Springer Nature Link,Q1,Full-text assessment,Included,
+338,Undersampled MRI Reconstruction with Side Information-Guided Normalisation,2022,Springer Nature Link,Q1,Full-text assessment,Included,
+339,Simulation-Based Parameter Optimization for Fetal Brain MRI Super-Resolution Reconstruction,2023,Springer Nature Link,Q1,Full-text assessment,Excluded,private data only
+340,InverseSR: 3D Brain MRI Super-Resolution Using a Latent Diffusion Model,2023,Springer Nature Link,Q1,Full-text assessment,Included,
+341,Denoising Supervision Based Generative Adversarial Networks for MRI Super-Resolution Reconstruction,2023,Springer Nature Link,Q1,Full-text assessment,Included,
+342,Single-subject Multi-contrast MRI Super-resolution via Implicit Neural Representations,2023,Springer Nature Link,Q1,Full-text assessment,Included,
+343,Region-Guided Channel-Wise Attention Network for Accelerated MRI Reconstruction,2022,Springer Nature Link,Q1,Full-text assessment,Included,
+344,DisC-Diff: Disentangled Conditional Diffusion Model for Multi-contrast MRI Super-Resolution,2023,Springer Nature Link,Q1,Full-text assessment,Included,
+345,An Unsupervised Framework for Joint MRI Super Resolution and Gibbs Artifact Removal,2023,Springer Nature Link,Q1,Full-text assessment,Included,
+346,Cascade Multiscale Swin-Conv Network for Fast MRI Reconstruction,2022,Springer Nature Link,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+347,Accurate Multi-contrast MRI Super-Resolution via a Dual Cross-Attention Transformer Network,2023,Springer Nature Link,Q1,Full-text assessment,Included,
+348,Universal Undersampled MRI Reconstruction,2021,Springer Nature Link,Q1,Full-text assessment,Included,
+349,Capsule GAN for prostate MRI super-resolution,2022,Springer Nature Link,Q1,Full-text assessment,Included,
+350,SuperFormer: Volumetric Transformer Architectures for MRI Super-Resolution,2022,Springer Nature Link,Q1,Full-text assessment,Included,
+351,SRE-CNN: A Spatiotemporal Rotation-Equivariant CNN for Cardiac Cine MR Imaging,2024,Springer Nature Link,Q1,Full-text assessment,Excluded,private data only
+352,Optical Flow Video Frame Interpolation Based MRI Super-Resolution,2022,Springer Nature Link,Q1,Full-text assessment,Included,
+353,PixCUE: Joint Uncertainty Estimation and Image Reconstruction in MRI using Deep Pixel Classification,2025,Springer Nature Link,Q1,Full-text assessment,Included,
+354,Scale-Equivariant Unrolled Neural Networks for Data-Efficient Accelerated MRI Reconstruction,2022,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+355,Magnetic Resonance Imaging Reconstruction Based on Butterfly Dilated Geometric Distillation,2024,Springer Nature Link,Q1,Full-text assessment,Excluded,private data only
+356,WavTrans: Synergizing Wavelet and Cross-Attention Transformer for Multi-contrast MRI Super-Resolution,2022,Springer Nature Link,Q1,Full-text assessment,Included,
+357,SAMR: Sampling-Guided All-in-One Learning for Accelerating MRI Reconstruction,2026,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+358,Probabilistic Undersampling Mask Optimization with Weight Adaptation for MRI Reconstruction,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+359,A review of deep learning-based reconstruction methods for accelerated MRI using spatiotemporal and multi-contrast redundancies,2024,Springer Nature Link,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+360,MRI Super-Resolution Through Generative Degradation Learning,2021,Springer Nature Link,Q1,Full-text assessment,Included,
+361,DSFNet: Deep Fusion Parallel MRI Reconstruction Based on SPIRiT and Complex Convolution,2024,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+362,Advanced Cardiac MRI: Integrating AI and Machine Learning for Post Imaging Reconstruction,2025,Springer Nature Link,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+363,Master Class on Reproducibility,2026,Springer Nature Link,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+364,Evaluating Structural Uncertainty in Accelerated MRI: Are Voxelwise Measures Useful Surrogates?,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+365,INR Meets Multi-contrast MRI Reconstruction,2025,Springer Nature Link,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+366,Deep J-Sense: Accelerated MRI Reconstruction via Unrolled Alternating Optimization,2021,Springer Nature Link,Q1,Full-text assessment,Included,
+367,A generalized dual-domain generative framework with hierarchical consistency for medical image reconstruction and synthesis,2023,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+368,TAT: Task-Adaptive Transformer for All-in-One Medical Image Restoration,2026,Springer Nature Link,Q1,Full-text assessment,Included,
+369,Mind the Detail: Uncovering Clinically Relevant Image Details in Accelerated MRI with Semantically Diverse Reconstructions,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+370,Domain Influence in MRI Medical Image Segmentation: Spatial Versus k-Space Inputs,2024,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+371,Directional Adaptive Shuffle-Based Visual State-Space Models for Medical Image Restoration,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+372,Noise-Controllable Complex-Valued Diffusion Model for k-Space Data of Hyperpolarized ^{129}Xe Lung MRI Generation,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+373,Multi-contrast MRI Super-Resolution via a Multi-stage Integration Network,2021,Springer Nature Link,Q1,Full-text assessment,Included,
+374,Deep Learning for Ill Posed Inverse Problems in Medical Imaging,2023,Springer Nature Link,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+375,All-in-One Medical Image Restoration with Latent Diffusion-Enhanced Vector-Quantized Codebook Prior,2026,Springer Nature Link,Q1,Full-text assessment,Included,
+376,Brain MR Image Super-resolution via Second-order Propagation and Grid Connections,2025,Springer Nature Link,Q1,Full-text assessment,Included,
+377,Complex-valued neural networks to speed-up MR thermometry during hyperthermia using Fourier PD and PDUNet,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+378,Advancing Complex-Valued Neural Networks with Product Units for MRI Reconstruction,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+379,Lifespan Cortical Surface Reconstruction from Thick-Slice Clinical MRI,2025,Springer Nature Link,Q1,Full-text assessment,Included,
+380,Learning to reconstruct accelerated MRI through K-space cold diffusion without noise,2024,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+381,Deep learning-based magnetic resonance image super-resolution: a survey,2024,Springer Nature Link,Q1,Full-text assessment,Excluded,"review, survey or tutorial"
+382,All-In-One Medical Image Restoration via Task-Adaptive Routing,2024,Springer Nature Link,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+383,Transferable Variational Feedback Network for Vendor Generalization in Accelerated MRI,2024,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+384,Differentiable Neural Architecture Search for Lightweight 3D-MRI Image Super-Resolution Based on Information Distillation,2025,Springer Nature Link,Q1,Full-text assessment,Included,
+385,Exploring the Potential of Untrained Neural Networks Based on Optimal Transport for Accelerated MRI,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+386,Segmentation-Guided MRI Reconstruction for Meaningfully Diverse Reconstructions,2025,Springer Nature Link,Q1,Full-text assessment,Included,
+387,Cortical Surface Reconstruction from 2D MRI with Segmentation-Constrained Super-Resolution and Representation Learning,2024,Springer Nature Link,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+388,Lightweight super-resolution dynamic contrast-aware differential fusion network for multi-contrast MRI,2025,Springer Nature Link,Q1,Full-text assessment,Included,
+389,Enhancing Image Quality in Medical Imaging and Satellite Imagery Using SRCNN,2025,Springer Nature Link,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+390,Architecture-Agnostic Untrained Network Priors for Image Reconstruction with Frequency Regularization,2024,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+391,Automated Brain Tumor Segmentation and Classification Using Enhanced MRI Reconstruction via SwinMR,2026,Springer Nature Link,Q1,Full-text assessment,Included,
+392,A Comprehensive Review of Deep Generative Techniques in the Study and Management of Neurological Disorders,2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+393,A Detail-Preserving Latent Diffusion Model for Arbitrarily Accelerated MR Imaging,2026,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+394,"CT-Guided, Unsupervised Super-Resolution Reconstruction of Single 3D Magnetic Resonance Image",2023,Springer Nature Link,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+395,TS-SR3: Time-Strided Denoising Diffusion Probabilistic Model for MR Super-Resolution,2025,Springer Nature Link,Q1,Full-text assessment,Included,
+396,"Semi-automatic CAD for upright lumbar spine MRI: reproducibility, time efficiency, and workload reduction with Q-Spine",2025,Springer Nature Link,Q1,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+397,Deep Cardiac MRI Reconstruction with ADMM,2024,Springer Nature Link,Q1,Identification,Duplicate,
+398,Deep learning for efficient reconstruction of highly accelerated 3D FLAIR MRI in neurological deficits,2024,Springer Nature Link,Q1,Full-text assessment,Excluded,private data only
+399,MOST: MR Reconstruction Optimization for Multiple DownStream Tasks via Continual Learning,2026,Springer Nature Link,Q1,Full-text assessment,Included,
+400,A Novel GCR-GAN for MRI Image Super-Resolution in Stroke Disease Classification,2026,Springer Nature Link,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+401,Sparse3Diff: A Diffusion Framework for 3D Reconstruction from Sparse 2D Slices in Volumetric Optical Imaging,2025,Springer Nature Link,Q1,Full-text assessment,Excluded,outside the reconstruction-task scope
+402,Slice2Mesh: 3D Surface Reconstruction From Sparse Slices of Images for the Left Ventricle,2025,Citation searching,,Full-text assessment,Excluded,outside the reconstruction-task scope
+403,A Novel GCR-GAN for MRI Image Super-Resolution in Stroke Disease Classification,2026,Springer Nature Link,Q1,Identification,Duplicate,
+404,End-to-End Variational Networks for Accelerated MRI Reconstruction,2020,Springer Nature Link,Q1,Identification,Duplicate,
+405,A CauchyTV non-convex regularization model for MRI reconstruction,2023,Springer Nature Link,Q1,Title and abstract screening,Excluded,k-space reconstruction only
+406,Deep learning-Based 3D inpainting of brain MR images,2021,Google Scholar,Q2,Full-text assessment,Included,
+407,The Unobserved Anatomy: Negotiating the Plausibility of AI-Based Reconstructions of Missing Brain Structures in Clinical MRI Scans,2023,Google Scholar,Q2,Title and abstract screening,Excluded,abstract not available
+408,End-to-End 4D Heart Mesh Recovery Across Full-Stack and Sparse Cardiac MRI,2025,Google Scholar,Q2,Full-text assessment,Excluded,outside the reconstruction-task scope
+409,Fast Medical Shape Reconstruction via Meta-learned Implicit Neural Representations,2024,Google Scholar,Q2,Full-text assessment,Excluded,outside the reconstruction-task scope
+410,Deep learning applications in motion management for radiotherapy,2025,Google Scholar,Q2,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+411,Mixed 2D and 3D convolutional network with multi-scale context for lesion segmentation in breast DCE-MRI,2021,Google Scholar,Q2,Full-text assessment,Excluded,private data only
+412,From Coarse to Continuous: Progressive Refinement Implicit Neural Representation for Motion-Robust Anisotropic MRI Reconstruction,2026,Google Scholar,Q2,Full-text assessment,Included,
+413,DC2-SR: A Dual-Consistency Guided Curriculum Learning method for Thick-Slice Fetal MRI Super-Resolution,2025,Google Scholar,Q2,Identification,Duplicate,
+414,A Review of Deep Learning-Based Super-Resolution Methods for Medical Imagery Sequences,2025,Google Scholar,Q2,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+415,Exploiting Completeness Perception with Diffusion Transformer for Unified 3D MRI Synthesis,2026,Google Scholar,Q2,Full-text assessment,Included,
+416,DCL-SE: Dynamic Curriculum Learning for Spatiotemporal Encoding of Brain Imaging,2025,Google Scholar,Q2,Full-text assessment,Excluded,outside the reconstruction-task scope
+417,MorphiNet: A Graph Subdivision Network for Adaptive Bi-ventricle Surface Reconstruction,2026,Google Scholar,Q2,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+418,A unified deep network for thin- and dense-slice reconstruction: Improving through-plane resolution in clinical MRI,2026,Google Scholar,Q3,Full-text assessment,Included,
+419,Slice2Mesh: 3D Surface Reconstruction From Sparse Slices of Images for the Left Ventricle,2025,Google Scholar,Q3,Identification,Duplicate,
+420,MRI Super-Resolution with Deep Learning: A Comprehensive Survey,2025,Google Scholar,Q3,Identification,Duplicate,
+421,"From 2D to 3D, Deep Learning-based Shape Reconstruction in Magnetic Resonance Imaging: A Review",2025,Google Scholar,Q3,Full-text assessment,Excluded,"review, survey or tutorial"
+422,Efficient 3D magnetic resonance image reconstruction by 2D transformers and attention-based fusion model,2025,Citation searching,,Full-text assessment,Excluded,outside the reconstruction-task scope
+423,3D Reconstructions of Brain from MRI Scans Using Neural Radiance Fields,2023,Google Scholar,Q3,Full-text assessment,Included,
+424,Sparse3Diff: A Diffusion Framework for 3D Reconstruction from Sparse 2D Slices in Volumetric Optical Imaging,2025,Google Scholar,Q3,Identification,Duplicate,
+425,ReBrain: Brain MRI Reconstruction from Sparse CT Slice via Retrieval-Augmented Diffusion,2026,Google Scholar,Q3,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+426,Automated high-fidelity 3D reconstruction of middle-ear ossicles from low-resolution clinical CT using a deep learning pipeline,2026,Google Scholar,Q3,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+427,Cross-Modality Whole-Heart MRI Reconstruction with Deep Motion Correction and Super-Resolution,2026,Google Scholar,Q3,Full-text assessment,Excluded,outside the reconstruction-task scope
+428,Learning Shape Reconstruction from Sparse Measurements with Neural Implicit Functions,2022,Google Scholar,Q3,Full-text assessment,Excluded,outside the reconstruction-task scope
+429,Medical Scene Reconstruction and Segmentation based on 3D Gaussian Representation,2025,Google Scholar,Q3,Full-text assessment,Included,
+430,3D Reconstruction of Vertebrae from Sparse 2D CT Data Using Conditional GANs and Transfer Learning,2026,Google Scholar,Q3,Full-text assessment,Excluded,outside the reconstruction-task scope
+431,Super-resolution of biomedical volumes with 2D supervision,2024,Google Scholar,Q3,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+432,Enhancing 3D heart model reconstruction via cardiac MRI interslice labels interpolation,2025,Google Scholar,Q3,Full-text assessment,Excluded,full text not accessible
+433,AI-enabled cardiac shape reconstruction from routine magnetic resonance imaging,2026,Google Scholar,Q3,Full-text assessment,Excluded,private data only
+434,An Anisotropic Cross-View Texture Transfer With Multi-Reference Non-Local Attention for CT Slice Interpolation,2025,Google Scholar,Q3,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+435,Variational volume reconstruction with the Deep Ritz Method,2025,Google Scholar,Q3,Title and abstract screening,Excluded,k-space reconstruction only
+436,A novel data-driven method for the analysis and reconstruction of cardiac cine MRI,2022,Google Scholar,Q3,Full-text assessment,Excluded,private data only
+437,Three-dimensional self super-resolution for pelvic floor MRI using a convolutional neural network with multi-orientation data training,2021,Google Scholar,Q3,Full-text assessment,Excluded,full text not accessible
+438,From Coarse to Continuous: Progressive Refinement Implicit Neural Representation for Motion-Robust Anisotropic MRI Reconstruction,2026,Google Scholar,Q3,Identification,Duplicate,
+439,Neural Radiance Fields (NeRFs) Technique to Render 3D Reconstruction of Magnetic Resonance Images,2024,Google Scholar,Q3,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+440,W-Shaped Net: An Inter-Slice Super-Resolution Segmentation Deep Network for CT Scans of Hepatic Ducts,2025,Google Scholar,Q3,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+441,X-Diffusion: Generating Detailed 3D MRI Volumes From a Single Image Using Cross-Sectional Diffusion Models,2024,Citation searching,,Full-text assessment,Included,
+442,"Faster, Self-Supervised Super-Resolution for Anisotropic Multi-View MRI Using a Sparse Coordinate Loss",2025,Citation searching,,Full-text assessment,Included,
+443,Single-subject Multi-contrast MRI Super-resolution via Implicit Neural Representations,2023,Citation searching,,Identification,Duplicate,
+444,Patient-Specific MRI Super-Resolution via Implicit Neural Representations and Knowledge Transfer,2025,Citation searching,,Full-text assessment,Included,
+445,Utility of Deep Learning Super-Resolution in the Context of Osteoarthritis MRI Biomarkers,2020,Citation searching,,Full-text assessment,Excluded,private data only
+446,TESLA: Test-Time Reference-Free Through-Plane Super-Resolution for Multi-Contrast Brain MRI,2025,Citation searching,,Full-text assessment,Included,
+447,MRI Super-Resolution with Partial Diffusion Models / PartDiff,2023,Citation searching,,Title and abstract screening,Excluded,"ineligible task, modality or publication type"
+448,NeSVoR: Implicit Neural Representation for Slice-to-Volume Reconstruction in MR,2023,Citation searching,,Full-text assessment,Included,
+449,High-resolution 3d mri with deep generative networks via novel slice-profile transformation super-resolution,2023,Citation searching,,Full-text assessment,Excluded,private data only
+450,Isotropic Brain MRI Reconstruction from Orthogonal Scans Using 3D Convolutional Neural Network,2024,Citation searching,,Full-text assessment,Included,
+451,I3Net: Inter-Intra-Slice Interpolation Network for Medical Slice Synthesis,2024,Citation searching,,Full-text assessment,Included,
+452,SIMPLE: Simultaneous Multi-Plane Self-Supervised Learning for Isotropic MRI Restoration from Anisotropic Data,2025,Citation searching,,Full-text assessment,Included,
+453,SynthSR: A public AI tool to turn heterogeneous clinical brain scans into high-resolution T1-weighted images for 3D morphometry,2023,Landmark work,,Full-text assessment,Included,
+454,Quantitative Brain Morphometry of Portable Low-Field-Strength MRI Using Super-Resolution Machine Learning,2023,Landmark work,,Full-text assessment,Included,
+455,SMORE: A Self-Supervised Anti-Aliasing and Super-Resolution Algorithm for MRI Using Deep Learning,2021,Landmark work,,Full-text assessment,Excluded,private data only
+456,"An automated framework for localization, segmentation and super-resolution reconstruction of fetal brain MRI",2020,Landmark work,,Full-text assessment,Excluded,private data only

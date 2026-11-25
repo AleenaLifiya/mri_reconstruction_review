@@ -1,10 +1,10 @@
 # Putting the Slices Together
 
-Companion resource for the review *Putting the Slices Together: A Review on Image-Domain MRI Reconstruction and Super-Resolution* (manuscript under review).
+Companion resource for the review *Putting the Slices Together: A Critical Review of AI for Image-Domain MRI Reconstruction and Super-Resolution* (manuscript under review).
 
 **Website:** https://aleenalifiya.github.io/mri_reconstruction_review/
 
-The site gives a short summary of the review and a searchable matrix of the 181 included studies. Each study can be filtered by reconstruction setting, source of the degraded input, anatomy, dataset, model family, supervision, year and code availability.
+The site gives a short summary of the review and a searchable matrix of the 183 included studies. Each study can be filtered by reconstruction setting, source of the degraded input, anatomy, dataset, model family, supervision, year and code availability.
 
 ## Data
 
@@ -13,8 +13,20 @@ The site gives a short summary of the review and a searchable matrix of the 181 
 | [`data/research_matrix.csv`](data/research_matrix.csv) | One row per reviewed study |
 | [`data/research_matrix.json`](data/research_matrix.json) | The same matrix in JSON |
 | [`data/datasets.csv`](data/datasets.csv) | The 40 public datasets and the number of reviewed studies using each |
+| [`data/screening_record.csv`](data/screening_record.csv) | One row per identified record (456): its source, the query it was logged with, the stage it reached, the decision and the reason for exclusion |
 
 The code of the protocol-sensitivity analysis reported in the review is in the `protocol_sensitivity/` folder.
+
+## Search and selection
+
+The database searches were run in July 2026 in Google Scholar, IEEE Xplore, Springer Nature Link and the ACM Digital Library, limited to 2020 to 2026 and sorted by relevance. The first 20 result pages of each query and source were inspected, and a record was kept when its title indicated an image-domain MRI reconstruction or super-resolution method. Further records came from citation searching and from landmark works of the field. The queries are given in Section 2 of the review:
+
+- **Q1** `("accelerated MRI reconstruction" OR "fast MRI reconstruction" OR "undersampled MRI reconstruction" OR "MRI super-resolution" OR "slice reconstruction MRI" OR "through-plane MRI super-resolution")`
+- **Q2** `("sparse slices" OR "sparsely acquired slices" OR "sparsely sampled slices") "3D MRI" reconstruction deep learning`
+- **Q3** `("sparse slices" OR "through-plane super-resolution" OR "slice interpolation") MRI "3D reconstruction" "deep learning"`
+- **Q4** `"anisotropic slice to volume reconstruction"`, `"thick to thin slice reconstruction"`, `"slice to volume reconstruction"` and `"inter-slice reconstruction"`, each searched as a separate phrase
+
+`data/screening_record.csv` reproduces the counts of the flow diagram (456 records, 52 duplicates, 146 excluded at title and abstract, 75 excluded at full text, 183 included). Its decisions and reasons use the categories of the diagram.
 
 ## Matrix columns
 
@@ -37,8 +49,8 @@ The code of the protocol-sensitivity analysis reported in the review is in the `
 
 ```bibtex
 @unpublished{jeffy2026slices,
-  title  = {Putting the Slices Together: A Review on Image-Domain
-            {MRI} Reconstruction and Super-Resolution},
+  title  = {Putting the Slices Together: A Critical Review of {AI} for
+            Image-Domain {MRI} Reconstruction and Super-Resolution},
   author = {Jeffy, Aleena Lifiya and Alkhatib, Mohammed Q. and
             Tliba, Marouane and Chetouani, Aladine and Aburaed, Nour},
   year   = {2026},
